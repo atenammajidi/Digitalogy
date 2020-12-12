@@ -1,0 +1,31 @@
+﻿@page
+@model Digitalogygroup.Web.Pages.Admin.IndexModel
+@{
+}
+
+
+
+    <div class="row">
+       
+
+        <div class="clientarea">
+            @if (User.Identity.IsAuthenticated)
+            {
+               
+       
+                <h3>
+                    @User.Identity.Name ، خوش آمدید.
+
+                </h3>
+               <br />
+               <h5صحبت>
+                   لطفا از منو ، گزینه مورد نظر خود را انتخاب کنید.
+               </h5صحبت>
+               
+          
+            }
+            
+
+        </div>
+    </div>
+

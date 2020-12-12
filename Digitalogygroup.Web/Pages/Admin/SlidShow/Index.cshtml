@@ -1,0 +1,85 @@
+﻿@page
+@model Digitalogygroup.Web.Pages.Admin.SlidShow.IndexModel
+@{
+}
+<div class="row">
+    <div class="col-lg-12">
+        <h2 class="page-header">لیست اسلایدشو </h2>
+    </div>
+    <!-- /.col-lg-12 -->
+</div>
+
+<div class="row">
+
+    @*Grid*@
+    <div class="col-md-8">
+        <div class="panel panel-success">
+
+            <div class="panel-heading">
+                لیست اسلاید شو
+            </div>
+            <!-- /.panel-heading -->
+            <div class="panel-body">
+
+                <div class="table-responsive">
+                    <div id="dataTables-example_wrapper" class="dataTables_wrapper form-inline" role="grid">
+                        <div class="col-md-12" style="margin: 10px 0;">
+
+                            <a asp-page="Create" class="btn btn-outline btn-success">افزودن اسلاید  جدید</a>
+
+                        </div>
+                        @*راهنما : 
+                        1 به معنای اسلایدر بالای صفحه
+                        <br />
+                        2 اسلایدر راست 
+                        <br />
+                        3 اسلایدر سمت چپ
+                        <br />*@
+                        <table class="table table-striped table-bordered table-hover dataTable no-footer" id="dataTables-example" aria-describedby="dataTables-example_info">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>عنوان</th>
+                                    <th>دسته</th>
+                                    <th>عملیات</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var gp in Model.SlidShowList)
+                                {
+                                <tr>
+                                    <td>@gp.Id</td>
+                                    <td>@gp.Title  </td>
+                                    <td>
+                                        @{ if (gp.Parent == 1)
+                                            { <span>اسلایدر اصلی</span>}
+                                            else if (gp.Parent == 2)
+                                            { <span>اسلایدر راست</span>}
+                                            else if (gp.Parent == 3)
+                                            { <span>اسلایدر چپ</span>}
+                                            else  
+                                            { <span>   - </span>}}
+                                    </td>
+                                    <td>
+                                        <a href="/Admin/SlidShow/Edit/@gp.Id" class="btn btn-warning btn-sm">
+                                            ویرایش
+                                        </a>@*|
+                                        <a href="/Admin/SlidShow/Delete/@gp.Id" class="btn btn-warning btn-sm">
+                                            حذف
+                                        </a>*@
+                                    </td>
+                                </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+ 
+            </div>
+
+        </div>
+    </div>
+
+
+</div>
+

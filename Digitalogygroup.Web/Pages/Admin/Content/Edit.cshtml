@@ -1,0 +1,68 @@
+﻿@page "{id}"
+@model Digitalogygroup.Web.Pages.Admin.Content.EditModel
+@{
+}
+<div class="row">
+    <div class="col-lg-12">
+        <h1 class="page-header">ویرایش محتوا   </h1>
+    </div>
+    <!-- /.col-lg-12 -->
+</div>
+
+<div class="row">
+    <form method="post" enctype="multipart/form-data">
+        <div class="col-md-12">
+            <div class="panel panel-success">
+                <div class="panel-heading">
+                    ویرایش محتوا
+                </div>
+                <!-- /.panel-heading -->
+                <div class="panel-body">
+
+
+
+                    <div class="form-group">
+                        <label> عنوان    </label>
+                        <input type="text" asp-for="VM.Title" class="form-control " >
+                        <input type="hidden" asp-for="VM.ID" class="form-control">
+                        <input type="hidden" asp-for="VM.Header" class="form-control">
+                    </div>
+                    <span asp-validation-for="VM.Title"></span>
+
+                    <div class="form-group">
+                        <label>محتوا    </label>
+                        <textarea  asp-for="VM.Content" rows="30" style="height:350px"></textarea>
+
+                    </div>
+                    <span asp-validation-for="VM.Content "></span>
+
+
+                    <br />
+
+                    <input type="submit" value="ذخیره اطلاعات" class="btn btn-success" />
+                </div>
+                <!-- /.panel-body -->
+            </div>
+        </div>
+
+
+    </form>
+</div>
+<script src="https://cdn.ckeditor.com/4.15.0/full/ckeditor.js"></script>
+<script>
+
+    CKEDITOR.replace('VM_Content', {
+        customConfig: '/js/Config.js'
+    });
+
+</script>
+
+<script src="~/js/bootstrap.min.js"></script>
+<script src="`/js/script.js"></script>
+
+<script src="~/js/jquery.validate.min.js"></script>
+<script src="~/js/jquery.validate.unobtrusive.js"></script>
+
+
+
+

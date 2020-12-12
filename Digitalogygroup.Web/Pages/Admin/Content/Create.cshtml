@@ -1,0 +1,69 @@
+﻿@page
+@model Ayoobifurniture.Web.Pages.Admin.Content.CreateModel
+@{
+}
+<div class="row">
+    <div class="col-lg-12">
+        <h1 class="page-header">افزودن محتوای جدید</h1>
+    </div>
+    <!-- /.col-lg-12 -->
+</div>
+
+<div class="row">
+    <form method="post" enctype="multipart/form-data">
+        <div class="col-md-12">
+            <div class="panel panel-success">
+                <div class="panel-heading">
+                    l
+                </div>
+                <!-- /.panel-heading -->
+                <div class="panel-body">
+
+
+
+                    <div class="form-group">
+                        <label> عنوان    </label>
+                        <select asp-for="VM.Title">
+                            <option></option>
+                        </select>
+                        <input type="hidden" asp-for="VM.id" class="form-control">
+                    </div>
+                    <span asp-validation-for="VM.title"></span>
+
+                    <div class="form-group">
+                        <label>محتوا    </label>
+                        <textarea class="form-control"   asp-for="VM.content" rows="10"></textarea>
+                    
+                    </div>
+                    <span asp-validation-for="VM.ProdFullDesc"></span>
+
+
+                    <br />
+
+                    <input type="submit" value="ذخیره اطلاعات" class="btn btn-success" />
+                </div>
+                <!-- /.panel-body -->
+            </div>
+        </div>
+
+
+    </form>
+</div>
+<script src="https://cdn.ckeditor.com/4.15.0/full/ckeditor.js"></script>
+@*<script src="https://cdn.ckeditor.com/4.9.2/standard/ckeditor.js"></script>*@
+<script>
+
+    CKEDITOR.replace('Txt_Form', {
+        customConfig: '/js/Config.js'
+    });
+
+</script>
+
+<script src="~/js/bootstrap.min.js"></script>
+<script src="`/js/script.js"></script>
+
+<script src="~/js/jquery.validate.min.js"></script>
+<script src="~/js/jquery.validate.unobtrusive.js"></script>
+
+
+

@@ -1,0 +1,135 @@
+﻿@model Digitalogygroup.Core.DTOs.LoginViewModel
+
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+
+
+    <meta charset="UTF-8">
+    <title>   سایت مبلمان  |  ورود  به پنل مدیریت </title>
+
+    <partial name="_MetaTags" />
+    <partial name="_Styles" />
+
+
+    <script src="/js/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+    <script src="/js/modernizr-custom.js"></script>
+
+
+    <!-- Top -->
+    <div class="landing-layer">
+        <div class="container">
+
+            <nav>
+                <div class="row">
+                    @*<div class="col-sm-6 col-xs-12">
+                            <ul>
+                                    <li>
+                                        <a href=""> همکاری در فروش </a>
+                                        <a href=""> درباره ما </a>
+                                        <a href=""> تماس با ما </a>
+                                    </li>
+                                </ul>
+                        </div>*@
+                    @*<div class="col-sm-6 col-xs-12">
+                            <div class="clientarea">
+                                <div class="loggein ">
+                                    <i class="zmdi zmdi-account"></i><a href=""> ایمان مدائنی ، خوش آمدی </a>
+                                </div>
+                                <div class="signin hidden">
+                                    <i class="zmdi zmdi-account"></i>
+                                    <a href=""> ورود </a> /
+                                    <a href=""> عضویت </a>
+                                </div>
+                            </div>
+                        </div>*@
+                </div>
+            </nav>
+
+            <header>
+                <a href="" class="logo"><img src="/images/logo.png"></a>
+                @*<h1> با اساتید مجرب و کارآزموده در خودآموز تاپ لرن </h1>
+                    <h2> آموزش ببینید ، تجربه کسب کنید و بازار کار شوید </h2>
+                    <h3> با کمترین هزینه خودت یاد بگیر </h3>*@
+            </header>
+
+        </div>
+    </div>
+    <!-- Top -->
+    <!-- Main -->
+    <main class="client-page">
+        <div class="container-content">
+            @if (ViewBag.IsSuccess != null)
+            {
+                <div class="alert alert-success">
+                    <p class="help-block">ورود با موفقیت انجام شد. </p>
+                </div>
+                <script>
+                    var delay = 900;
+                    setTimeout(function () { window.location = "/Admin"; }, delay)
+                                   // setTimeout(function () { window.location = "/Index"; } , delay)
+                </script>
+            }
+
+            <header><h2> ورود به پنل مدیریت </h2></header>
+
+            <div class="form-layer">
+
+                <form asp-action="Login" method="post">
+
+                    <div class="input-group">
+                        <span class="input-group-addon" id="txt_username"><i class="zmdi zmdi-email"></i></span>
+                        <input asp-for="UserName" type="text" class="form-control"
+                               placeholder="نام کاربری" aria-describedby="">
+                    </div>
+                    <span asp-validation-for="UserName"></span>
+
+                    <div class="input-group">
+                        <span class="input-group-addon" id="txt_password"><i class="zmdi zmdi-lock"></i></span>
+                        <input asp-for="password" type="password" class="form-control"
+                               placeholder="رمز عبور " aria-describedby="password">
+                    </div>
+                    <span asp-validation-for="password"></span>
+
+
+                    <div class="remember-me">
+                        <label><input asp-for="RememberMe" type="checkbox" name="">  مرا بخاطر بسپار </label>
+                    </div>
+
+
+
+                    <button class="btn btn-success"> ورود </button>
+
+                </form>
+            </div>
+
+        </div>
+    </main>
+
+
+
+    <!-- /Main -->
+    <!-- footer -->
+    @*<partial name="_Footer" />*@
+    <!-- /footer -->
+    <script src="~/js/bootstrap.min.js"></script>
+    <script src="`/js/script.js"></script>
+
+    <script src="~/js/jquery.validate.min.js"></script>
+    <script src="~/js/jquery.validate.unobtrusive.js"></script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,8 @@
+D:\mahmodkhani\Digitalogygroup\Digitalogygroup.DataLayer\bin\Debug\netcoreapp2.1\Digitalogygroup.DataLayer.deps.json
+D:\mahmodkhani\Digitalogygroup\Digitalogygroup.DataLayer\bin\Debug\netcoreapp2.1\Digitalogygroup.DataLayer.dll
+D:\mahmodkhani\Digitalogygroup\Digitalogygroup.DataLayer\bin\Debug\netcoreapp2.1\Digitalogygroup.DataLayer.pdb
+D:\mahmodkhani\Digitalogygroup\Digitalogygroup.DataLayer\obj\Debug\netcoreapp2.1\Digitalogygroup.DataLayer.AssemblyInfoInputs.cache
+D:\mahmodkhani\Digitalogygroup\Digitalogygroup.DataLayer\obj\Debug\netcoreapp2.1\Digitalogygroup.DataLayer.AssemblyInfo.cs
+D:\mahmodkhani\Digitalogygroup\Digitalogygroup.DataLayer\obj\Debug\netcoreapp2.1\Digitalogygroup.DataLayer.csproj.CoreCompileInputs.cache
+D:\mahmodkhani\Digitalogygroup\Digitalogygroup.DataLayer\obj\Debug\netcoreapp2.1\Digitalogygroup.DataLayer.dll
+D:\mahmodkhani\Digitalogygroup\Digitalogygroup.DataLayer\obj\Debug\netcoreapp2.1\Digitalogygroup.DataLayer.pdb

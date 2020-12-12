@@ -1,0 +1,30 @@
+﻿@model IEnumerable<Digitalogygroup.DataLayer.Entities.Products.Tbl_SlidShow>
+<div class=" col-md-7 col-sm-7 col-xs-12">
+    <div class=" col-md-12 col-sm-12 col-xs-12 slider-novelties no-padding">
+        <p style=" font-size: 15px;    line-height: 17px;    font-family: 'Lora', serif;    color: #111;    text-decoration: none;    text-align: center;    padding-top: 16px;    text-transform: uppercase;    margin: 0;">
+            کالاهای تزیینی  <br>
+        </p>
+    </div>
+    <div class=" col-md-12 col-sm-12 col-xs-12 slider-novelties no-padding bottom" style="padding-bottom: 2.1% !important;">
+        <div class="flexslider12">
+            <ul class="slides">
+                @foreach (var sl in Model)
+                {
+                    <li>
+                        <a href="@sl.Link">
+                            <img src="/Slid/@sl.ImageUrl" class="img-responsive zindex_top" style="width: 10%;    position: absolute;    bottom: 0 !important;    right: 2%;" border="0" alt="Stamp New Piece">
+                            <img src="/Slid/@sl.ImageUrl" alt="@sl.Title" class="img-responsive" />
+                        </a>
+                    </li>
+                }
+                    
+                </ul>
+        </div>
+    </div>
+
+    <div class="col-md-12 col-sm-12 col-xs-12 no-padding" style="overflow: hidden;">
+        <a href="https://www.lovehappensmag.com/blog/" target="_blank">
+            <img src="/KOKETLoveHappens_files/LH-home2.jpg" alt="LoveHappensMag" class="img-responsive" />
+        </a>
+    </div>
+</div>

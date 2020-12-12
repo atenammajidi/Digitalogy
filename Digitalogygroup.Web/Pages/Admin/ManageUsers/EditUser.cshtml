@@ -1,0 +1,80 @@
+﻿@page "{id}"
+@using Digitalogygroup.DataLayer.Entities.User
+@model Digitalogygroup.Web.Pages.Admin.ManageUsers.EditUserModel
+
+@{
+    ViewData["Title"] = "ویرایش کاربر";
+    List<Tbl_Role> Roles = ViewData["Roles"] as List<Tbl_Role>;
+}
+
+
+
+<div class="row">
+    <div class="col-lg-12">
+        <h1 class="page-header"> ویرایش کاربر </h1>
+    </div>
+    <!-- /.col-lg-12 -->
+</div>
+
+<div class="row">
+    <form method="post" enctype="multipart/form-data">
+        <input type="hidden" asp-for="VM.UserId" />
+        <div class="col-md-12">
+            <div class="panel panel-success">
+                <div class="panel-heading">
+                    اطلاعات کاربر
+                </div>
+                <!-- /.panel-heading -->
+                <div class="panel-body">
+
+                    <div class="form-group">
+                        <label>نام کاربری</label>
+                        <label class="form-control">@Model.VM.UserName</label>
+                    </div>
+
+
+                    <div class="form-group">
+                        <label>نام و نام خانوادگی</label>
+                        <input type="text" asp-for="VM.FullName" class="form-control">
+                    </div>
+                    <span asp-validation-for="VM.FullName"></span>
+
+
+
+                    <div class="form-group">
+                        <label>کلمه عبور</label>
+                        <input type="text" asp-for="VM.Password" class="form-control">
+                        <p class="help-block">در صورت وارد کردن کلمه عبور ، کلمه عبور کاربر تغییر خواهد کرد</p>
+                    </div>
+                    <span asp-validation-for="VM.Password"></span>
+
+
+                    <div class="form-group">
+                        <label>انتخاب نقش کاربر</label>
+                        @foreach (var item in Roles)
+                        {
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="SelectedRoles" value="@item.Id" @((Model.VM.MyUserRoles.Any(r => r == item.Id) ? "checked" : ""))>@item.RoleTitleFa
+                                </label>
+                            </div>
+                        }
+
+                    </div>
+                    <br />
+
+                    <input type="submit" value="ذخیره اطلاعات" class="btn btn-success" />
+                </div>
+                <!-- /.panel-body -->
+            </div>
+        </div>
+
+
+    </form>
+</div>
+
+<script src="~/js/bootstrap.min.js"></script>
+<script src="`/js/script.js"></script>
+
+<script src="~/js/jquery.validate.min.js"></script>
+<script src="~/js/jquery.validate.unobtrusive.js"></script>

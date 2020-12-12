@@ -1,0 +1,36 @@
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Core\bin\Release\netcoreapp2.1\Ayoobifurniture.Core.deps.json
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Core\bin\Release\netcoreapp2.1\Ayoobifurniture.Core.dll
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Core\bin\Release\netcoreapp2.1\Ayoobifurniture.Core.pdb
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Core\bin\Release\netcoreapp2.1\Ayoobifurniture.DataLayer.dll
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Core\bin\Release\netcoreapp2.1\Ayoobifurniture.DataLayer.pdb
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Core\obj\Release\netcoreapp2.1\Ayoobifurniture.Core.csprojAssemblyReference.cache
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Core\obj\Release\netcoreapp2.1\Ayoobifurniture.Core.csproj.CoreCompileInputs.cache
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Core\obj\Release\netcoreapp2.1\Ayoobifurniture.Core.AssemblyInfoInputs.cache
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Core\obj\Release\netcoreapp2.1\Ayoobifurniture.Core.AssemblyInfo.cs
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Core\obj\Release\netcoreapp2.1\Ayoobifurniture.Core.csproj.CopyComplete
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Core\obj\Release\netcoreapp2.1\Ayoobifurniture.Core.dll
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Core\obj\Release\netcoreapp2.1\Ayoobifurniture.Core.pdb
+D:\project\Ayoobifurniture\Ayoobifurniture\Ayoobifurniture.Core\bin\Release\netcoreapp2.1\Ayoobifurniture.Core.deps.json
+D:\project\Ayoobifurniture\Ayoobifurniture\Ayoobifurniture.Core\bin\Release\netcoreapp2.1\Ayoobifurniture.Core.dll
+D:\project\Ayoobifurniture\Ayoobifurniture\Ayoobifurniture.Core\bin\Release\netcoreapp2.1\Ayoobifurniture.Core.pdb
+D:\project\Ayoobifurniture\Ayoobifurniture\Ayoobifurniture.Core\bin\Release\netcoreapp2.1\Ayoobifurniture.DataLayer.dll
+D:\project\Ayoobifurniture\Ayoobifurniture\Ayoobifurniture.Core\bin\Release\netcoreapp2.1\Ayoobifurniture.DataLayer.pdb
+D:\project\Ayoobifurniture\Ayoobifurniture\Ayoobifurniture.Core\obj\Release\netcoreapp2.1\Ayoobifurniture.Core.csprojAssemblyReference.cache
+D:\project\Ayoobifurniture\Ayoobifurniture\Ayoobifurniture.Core\obj\Release\netcoreapp2.1\Ayoobifurniture.Core.csproj.CoreCompileInputs.cache
+D:\project\Ayoobifurniture\Ayoobifurniture\Ayoobifurniture.Core\obj\Release\netcoreapp2.1\Ayoobifurniture.Core.AssemblyInfoInputs.cache
+D:\project\Ayoobifurniture\Ayoobifurniture\Ayoobifurniture.Core\obj\Release\netcoreapp2.1\Ayoobifurniture.Core.AssemblyInfo.cs
+D:\project\Ayoobifurniture\Ayoobifurniture\Ayoobifurniture.Core\obj\Release\netcoreapp2.1\Ayoobifurniture.Core.csproj.CopyComplete
+D:\project\Ayoobifurniture\Ayoobifurniture\Ayoobifurniture.Core\obj\Release\netcoreapp2.1\Ayoobifurniture.Core.dll
+D:\project\Ayoobifurniture\Ayoobifurniture\Ayoobifurniture.Core\obj\Release\netcoreapp2.1\Ayoobifurniture.Core.pdb
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Core\bin\Release\netcoreapp2.1\Ayoobifurniture.Core.deps.json
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Core\bin\Release\netcoreapp2.1\Ayoobifurniture.Core.dll
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Core\bin\Release\netcoreapp2.1\Ayoobifurniture.Core.pdb
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Core\bin\Release\netcoreapp2.1\Ayoobifurniture.DataLayer.dll
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Core\bin\Release\netcoreapp2.1\Ayoobifurniture.DataLayer.pdb
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Core\obj\Release\netcoreapp2.1\Ayoobifurniture.Core.csprojAssemblyReference.cache
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Core\obj\Release\netcoreapp2.1\Ayoobifurniture.Core.AssemblyInfoInputs.cache
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Core\obj\Release\netcoreapp2.1\Ayoobifurniture.Core.AssemblyInfo.cs
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Core\obj\Release\netcoreapp2.1\Ayoobifurniture.Core.csproj.CoreCompileInputs.cache
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Core\obj\Release\netcoreapp2.1\Ayoobifurniture.Core.csproj.CopyComplete
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Core\obj\Release\netcoreapp2.1\Ayoobifurniture.Core.dll
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Core\obj\Release\netcoreapp2.1\Ayoobifurniture.Core.pdb

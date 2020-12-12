@@ -1,0 +1,690 @@
+@charset "utf-8";
+
+/* CSS Document */
+.dispnon{display: none !important;}
+/* News Roll */
+
+    @media (min-width: 1600px){
+		.pieces{
+			margin: 0 auto;
+			float: none;
+			padding-left: 0 !important;
+			padding-right: 0 !important;
+			padding-bottom: 40px;
+			font-size: 14px;
+			color: #111111;
+		}
+		.clickclose{
+			display: none;
+			width:100%;
+			line-height: 14px;
+			font-size: 11px;
+			background: #222;
+			color: #fafafa;
+			padding: 5px;
+		}
+		.viewmore{
+			display: block;
+			width:100%;
+			line-height: 14px;
+			font-size: 11px;
+			background: #222;
+			color: #fafafa;
+			padding: 5px;
+		}
+		
+		.box {
+			position: relative;
+			/*overflow: hidden;*/
+		}
+		.box_content {
+			position: absolute;
+			bottom: -9%;
+			left: 0;
+			width: 100%;
+			height: 18%;
+			display: block;
+			z-index: 4;
+			background: rgba(0,0,0,.5);
+			-ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=50);
+			filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+			filter:alpha(opacity=50);
+			-webkit-transition: bottom 0.7s;
+			transition: bottom 0.7s;
+			-webkit-transition-timing-function: ease-out;
+			transition-timing-function: ease-out;
+		}
+		
+		.box_content-video {
+			position: absolute;
+			bottom: -11%;
+			left: 0;
+			width: 100%;
+			height: 20%;
+			display: block;
+			z-index: 4;
+			background: rgba(0,0,0,.5);
+			-ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=50);
+			filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+			filter:alpha(opacity=50);
+			-webkit-transition: bottom 0.7s;
+			transition: bottom 0.7s;
+			-webkit-transition-timing-function: ease-out;
+			transition-timing-function: ease-out;
+		}
+		.title-projects {
+			position: absolute;
+			bottom: -12%;
+			left: 0;
+			/* This moves it to the bottom (initial state) */
+			width: 100%;
+			height: 100%;
+		}
+		
+		.box:hover .box_content {
+			bottom: 0;
+			/* This moves it to the top (only on hover) */
+		}
+		
+		.box a { text-decoration: none; border: 0;}
+		
+
+		.title-video {
+			position: absolute;
+			bottom: -15%;
+			left: 0;
+			/* This moves it to the bottom (initial state) */
+			width: 100%;
+			height: 100%;
+			-webkit-transition: bottom 2s;
+			transition: bottom 2s;
+			-webkit-transition-timing-function: ease-out;
+			transition-timing-function: ease-out;
+		}
+		
+		.box:hover .box_content-video  {
+			bottom: 0;
+			/* This moves it to the top (only on hover) */
+		}
+    
+		.box_content-video .line-divider  {
+			position: absolute;
+			border-bottom: 1px solid #b5b5b5;
+			width: 60px;
+			left: 50%;
+			top: 45%;
+			margin-left: -30px;
+			line-height: 0;
+		}
+		
+		.box_content .line-divider  {
+			position: absolute;
+			border-bottom: 1px solid #b5b5b5;
+			width: 60px;
+			left: 50%;
+			top: 29%;
+			margin-left: -30px;
+			line-height: 0;
+	    }
+		
+		body .SnapABug_Button{
+			top: 65% !important;
+		}
+	}
+
+     .user-header {
+      background: #F2F2F2;
+      text-transform: uppercase;
+      font-size: 12px;
+      height: 28px;
+      padding: 0 10px 0 10px;
+	}
+
+    .user-header .container {
+      max-width: 1195px;
+      margin: 0 auto;
+    }
+
+    .container-cart-drop-down {
+      max-width: 1140px;
+      margin: 0 auto;
+    }
+
+    .big-user-menu {
+      float: right;
+      width: 31%;
+    }
+
+    .big-user-menu div {
+      float: left;
+    }
+
+    .user-menu {
+      margin-top: 8px;
+      font-size: 0;
+    }
+
+    .user-menu span {
+      padding: 0 10px;
+      color: #000;
+      font-size: 12px;
+    }
+
+    .user-menu a {
+      padding: 0 10px;
+      color: #000;
+      text-decoration: none;
+      font-size: 12px;
+      display: inline !important;
+    }
+
+    .user-menu a:last-child {
+      border-left: 1px solid #000;
+    }
+
+    .user-menu a:hover {
+      text-decoration: underline;
+    }
+
+    .user-header img {
+      height: 22px;
+      display: block;
+      margin-top: 4px;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: fixed;
+      width: 1140px;
+      height: auto;
+    }
+
+    .dropdown-content-cart {
+      position: relative;
+      background-color: #fff;
+      width: 350px;
+      height: 400px;
+      -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+      float: right;
+    }
+
+    .dropdown-content-cart .header-cart {
+      padding: 10px;
+      padding-bottom: 0;
+    }
+
+    .dropdown-content-cart .header-cart:first-child div {
+      padding-bottom: 10px;
+      margin-bottom: 10px;
+      border-bottom: 1px solid #ddd;
+      color: #333;
+      font-weight: bold;
+    }
+
+    .dropdown-content-cart > .products {
+      margin: 0 10px 0 10px;
+      height: 335px;
+      overflow-y: scroll;
+    }
+
+    .user-header i {
+      color: #000;
+    }
+
+    .dropdown-content-cart > .products > .item {
+      padding: 0;
+      width: calc(100% - 20px);
+      border-bottom: 1px solid #ddd;
+    }
+
+    .dropdown-content-cart > .products > .item div:first-child, .dropdown-content-cart > .products > .item div:last-child {
+      float: left;
+    }
+
+    .dropdown-content-cart > .products > .item div:first-child img {
+      width: auto;
+    }
+
+    .dropdown-content-cart > .products > .item div:last-child {
+      padding-left: 20px;
+    }
+
+    .dropdown-content-cart > .products > .item div:last-child a {
+      font-family: "Galaxie-Polaris-Bold";
+      text-transform: uppercase;
+      font-size: 12px;
+      letter-spacing: 2px;
+      text-decoration: none;
+      color: #222;
+    }
+
+    .dropdown-content-cart > .products > .item div:last-child a:hover {
+      color: #aaa;
+    }
+
+    @media all and (max-width: 1200px) {
+      .cartcart {
+          display: none;
+      }
+    }
+
+    .cart-dropdown span {
+      position: absolute;
+      background: #9D875C;
+      width: 15px;
+      height: 15px;
+      margin-left: 10px;
+      margin-top: 2px;
+      border-radius: 100%;
+      text-align: center;
+      line-height: 15px;
+      z-index: 5;
+      color: #fff;
+      font-size: 10px;
+      -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    }
+
+    .user-menu .outlet-title {
+      padding: 0;
+      color: #9D875C;
+    }
+
+    .user-menu .outlet-phone {
+      margin-right: 20px;
+    }
+
+    .downloads {
+      background: #F2F2F2;
+      height: 28px;
+      text-transform: uppercase;
+      font-size: 12px;
+      line-height: 28px;
+      width: 50%;
+      float: left;
+    }
+
+    .downloads a {
+      color: #222;
+      text-decoration: underline;
+    }
+
+    .downloads a:hover {
+      text-decoration: none;
+    }
+
+    .downloads .nav {
+      margin: 0;
+      padding: 0;
+      float: left;
+    }
+
+    .downloads .nav {
+      margin: 0;
+      padding: 0;
+      float: left;
+    }
+
+    .downloads .container {
+      padding: 0 20px 0 20px;
+    }
+
+    .downloads .nav li:first-child {
+      display: inline-block;
+      padding: 0 2px 0 0;
+    }
+
+    .downloads .nav li:last-child {
+      display: inline-block;
+      padding: 0 0 0 2px;
+    }
+
+    .downloads .nav li {
+      display: inline-block;
+      padding: 0 2px 0 2px;
+    }
+
+    .downloads .nav li a {
+      color: #4B4B4B;
+      text-decoration: none;
+    }
+
+    @media all and (max-width: 1200px) {
+      .big-user-menu {
+        margin-right: 10px;
+      }
+    }
+
+    @media all and (max-width: 1000px) {
+      .downloads, .user-menu .outlet-phone {
+        display: none;
+      }
+    }
+
+
+    @media all and (max-width: 600px) {
+	    .big-user-menu {
+		    float: right;
+		    width: 80% !important;
+		    margin-right: 0;
+		}
+		
+		.navbar-toggle{
+			margin-right: 10px !important;
+		}
+		
+		hidden-xs{
+			display: none !important;
+			visibility: hidden !important;
+		}
+		
+		#popup{
+			display: none !important;
+			visibility: hidden !important;
+		}
+    }
+    
+    
+	   
+	.ticker-container {
+		width: 100%;
+		height: 2.9%;
+		overflow: hidden;
+		/*padding-top: 3px;*/
+		padding-top: 7px;
+	}
+	.ticker-text {
+		height: 150%;
+	    white-space:nowrap;
+	    display:inline-block;
+	    background-color:#F2F2F2;
+	    color:#4B4B4B;
+	}  
+	
+	.ticker-text a:hover{
+		text-decoration: none;
+	    color:#4B4B4B;
+	
+	} 
+	 
+	.antispam { display:none !important;}
+	
+	/* Customize the label (the container) */
+	.checkboxs {
+	  display: block;
+	  position: relative;
+	  padding-left: 0;
+	  margin-bottom: 5px;
+	  cursor: pointer;
+	  font-size: 22px;
+	  -webkit-user-select: none;
+	  -moz-user-select: none;
+	  -ms-user-select: none;
+	  user-select: none;
+	  float: left;
+	}
+
+	.checkboxs label {
+		font-size: 10px;
+		float: left;
+		color: #ababab;
+		font-weight: 400;
+		padding: 5px 5px 0 5px !important;
+		margin: 0;
+	}
+
+	/* Hide the browser's default checkbox */
+	.checkboxs input {
+	  position: absolute;
+	  opacity: 0;
+	  cursor: pointer;
+	}
+	
+	/* Create a custom checkbox */
+	.checkmark {
+	  position: absolute;
+	  top: 5px;
+	  left: 0;
+	  height: 12px;
+	  width: 12px;
+	  background-color: #eee;
+	}
+	
+	/* On mouse-over, add a grey background color */
+	.checkboxs:hover input ~ .checkmark {
+	  background-color: #ababab;
+	}
+	
+	/* When the checkbox is checked, add a blue background */
+	.checkboxs input:checked ~ .checkmark {
+	  background-color: #7d7d7d;
+	}
+	
+	/* Create the checkmark/indicator (hidden when not checked) */
+	.checkmark:after {
+	  content: "";
+	  position: absolute;
+	  display: none;
+	}
+	
+	/* Show the checkmark when checked */
+	.checkboxs input:checked ~ .checkmark:after {
+	  display: block;
+	}
+	
+	/* Style the checkmark/indicator */
+	.checkboxs .checkmark:after {
+		left: 4px;
+		top: 1px;
+		width: 4px;
+		height: 8px;
+		border: solid #fafafa;
+		border-width: 0 2px 2px 0;
+		-webkit-transform: rotate(45deg);
+		-ms-transform: rotate(45deg);
+		transform: rotate(45deg);
+	}
+	
+	
+	.checkboxs a{
+		display: inline-block;
+		font-size: 10px;
+		color: #ababab;
+		padding:0 2px 0 2px !important;
+		float: left;
+		background: none !important;
+		width: auto !important;
+	}
+	.checkboxs a:hover{
+		text-decoration: underline;
+		color: #fafafa;
+	}
+
+	select{
+		-webkit-appearance: none !important; 
+		-webkit-border-radius: 0px !important;
+	}
+
+	/* Customize the label (the container) */
+	.checkboxs1 {
+	  display: block;
+	  position: relative;
+	  padding-left: 0;
+	  margin-bottom: 5px;
+	  cursor: pointer;
+	  font-size: 22px;
+	  -webkit-user-select: none;
+	  -moz-user-select: none;
+	  -ms-user-select: none;
+	  user-select: none;
+	  float: left;
+	}
+
+	.checkboxs1 label {
+		font-size: 10px;
+		float: left;
+		color: #111;
+		font-weight: 400;
+		padding: 5px 5px 0 5px !important;
+		margin: 0;
+	}
+
+	/* Hide the browser's default checkbox */
+	.checkboxs1 input {
+	  position: absolute;
+	  opacity: 0;
+	  cursor: pointer;
+	}
+	
+	/* Create a custom checkbox */
+	.checkmark {
+	  position: absolute;
+	  top: 5px;
+	  left: 0;
+	  height: 12px;
+	  width: 12px;
+	  background-color: #eee;
+	  border: 1px solid #ababab;
+	}
+	
+	/* On mouse-over, add a grey background color */
+	.checkboxs1:hover input ~ .checkmark {
+	  background-color: #ababab;
+	}
+	
+	/* When the checkbox is checked, add a blue background */
+	.checkboxs1 input:checked ~ .checkmark {
+	  background-color: #7d7d7d;
+	}
+	
+	/* Create the checkmark/indicator (hidden when not checked) */
+	.checkmark:after {
+	  content: "";
+	  position: absolute;
+	  display: none;
+	}
+	
+	/* Show the checkmark when checked */
+	.checkboxs1 input:checked ~ .checkmark:after {
+	  display: block;
+	}
+	
+	/* Style the checkmark/indicator */
+	.checkboxs1 .checkmark:after {
+		left: 3px;
+		top: 1px;
+		width: 4px;
+		height: 7px;
+		border: solid #fafafa;
+		border-width: 0 2px 2px 0;
+		-webkit-transform: rotate(45deg);
+		-ms-transform: rotate(45deg);
+		transform: rotate(45deg);
+	}
+	
+	.checkboxs1 a{
+		display: inline-block;
+		font-size: 10px;
+		color: #111111;
+		padding:0 2px 0 2px !important;
+		float: left;
+	}
+	.checkboxs1 a:hover{
+		text-decoration: underline;
+		color: #333333;
+	}
+
+
+
+	/* Customize the label (the container) */
+	.checkboxs2 {
+	  display: block;
+	  position: relative;
+	  padding-left: 0;
+	  margin-bottom: 5px;
+	  cursor: pointer;
+	  font-size: 22px;
+	  -webkit-user-select: none;
+	  -moz-user-select: none;
+	  -ms-user-select: none;
+	  user-select: none;
+	  float: left;
+	}
+
+	.checkboxs2 label {
+		font-size: 10px;
+		float: left;
+		color: #111;
+		font-weight: 400;
+		padding: 5px 5px 0 5px !important;
+		margin: 0;
+	}
+
+	/* Hide the browser's default checkbox */
+	.checkboxs2 input {
+	  position: absolute;
+	  opacity: 0;
+	  cursor: pointer;
+	}
+	
+	/* Create a custom checkbox */
+	.checkmark {
+	  position: absolute;
+	  top: 5px;
+	  left: 0;
+	  height: 12px;
+	  width: 12px;
+	  background-color: transparent;
+	  border: 1px solid #111111;
+	}
+	
+	/* On mouse-over, add a grey background color */
+	.checkboxs2:hover input ~ .checkmark {
+	  background-color: #ababab;
+	}
+	
+	/* When the checkbox is checked, add a blue background */
+	.checkboxs2 input:checked ~ .checkmark {
+	  background-color: #7d7d7d;
+	}
+	
+	/* Create the checkmark/indicator (hidden when not checked) */
+	.checkmark:after {
+	  content: "";
+	  position: absolute;
+	  display: none;
+	}
+	
+	/* Show the checkmark when checked */
+	.checkboxs2 input:checked ~ .checkmark:after {
+	  display: block;
+	}
+	
+	/* Style the checkmark/indicator */
+	.checkboxs2 .checkmark:after {
+		left: 3px;
+		top: 1px;
+		width: 4px;
+		height: 7px;
+		border: solid #fafafa;
+		border-width: 0 2px 2px 0;
+		-webkit-transform: rotate(45deg);
+		-ms-transform: rotate(45deg);
+		transform: rotate(45deg);
+	}
+	
+	.checkboxs2 a{
+		display: inline-block;
+		font-size: 10px;
+		color: #111111;
+		padding:0 2px 0 2px !important;
+		float: left;
+		background: transparent !important;
+		width: auto !important;
+	}
+	.checkboxs2 a:hover{
+		text-decoration: underline;
+		color: #333333;
+	}
+

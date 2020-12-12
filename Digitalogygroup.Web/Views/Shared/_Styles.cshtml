@@ -1,0 +1,1032 @@
+﻿<link rel="stylesheet" href="~/KOKETLoveHappens_files/flexslider-home.css" type="text/css" />
+<link rel="stylesheet" href="~/KOKETLoveHappens_files/style-home.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="~/KOKETLoveHappens_files/style-header.css" type="text/css" media="screen" />
+ 
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+
+<script src="~/KOKETLoveHappens_files/bootstrap.js"></script>
+
+@*<script language='javascript'>
+    $(document).ready(function () {
+        var local = "";
+        var javaScriptVarPais = "Iran";
+        if (javaScriptVarPais === 'United States' || javaScriptVarPais === 'Canada' || javaScriptVarPais === 'Brazil') {
+            /*			    document.getElementById('geotestUS').style.display = "block";
+                            document.getElementById('geotestEU').style.display = "none";*/
+            document.getElementById('resultEU').style.display = "none";
+        } else {
+            /*  document.getElementById('geotestUS').remove();*/
+            document.getElementById('resultUS').style.display = "none ";
+        };
+    });
+</script>*@
+
+<style>
+    @@font-face {
+        font-family: Didot-Regular;
+        src: url(~/KOKETLoveHappens_files/Didot-Regular.ttf) format("truetype");
+    }
+
+    @@font-face {
+        font-family: Titillium-Light;
+        src: url(~/KOKETLoveHappens_files/Titillium-Light.ttf) format("truetype");
+    }
+        /* The Modal (background) */
+        .modal {
+            display: none; /* Hidden by default */
+            position: fixed; /* Stay in place */
+            z-index: 999999 !important; /* Sit on top */
+            padding-top: 105px; /* Location of the box */
+            left: 0;
+            top: 0;
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            overflow: auto; /* Enable scroll if needed */
+            background-color: rgb(0,0,0); /* Fallback color */
+            background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+        }
+
+        /* Modal Content */
+        .modal-content {
+            background-color: #000 !important;
+            margin: auto;
+            width: 800px;
+            border-radius: 0;
+        }
+
+        /* The Close Button */
+        .close {
+            color: #fff !important;
+            float: right;
+            font-size: 22px;
+            font-weight: normal;
+        }
+
+            .close:hover,
+            .close:focus {
+                color: #fff !important;
+                text-decoration: none;
+                cursor: pointer;
+            }
+</style>
+
+<!-- The Modal -->
+<!--<div id="myModal" class="modal">-->
+<!-- Modal content -->
+<!--<div class="modal-content clearfix">-->
+<!-- Begin Mailchimp Signup Form -->
+<!--<style type="text/css">
+    /* MailChimp Form Embed Code - Classic - 12/17/2015 v10.7 */
+    #mc_embed_signup form {
+        display: block;
+        position: relative;
+        text-align: left;
+        padding: 10px 0 10px 3%
+    }
+
+    #mc_embed_signup h2 {
+        font-weight: bold;
+        padding: 0;
+        margin: 15px 0;
+        font-size: 1.4em;
+    }
+
+    #mc_embed_signup input {
+        border: 1px solid #ABB0B2;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+
+        #mc_embed_signup input[type=checkbox] {
+            -webkit-appearance: checkbox;
+        }
+
+        #mc_embed_signup input[type=radio] {
+            -webkit-appearance: radio;
+        }
+
+        #mc_embed_signup input:focus {
+            border-color: #333;
+        }
+
+    #mc_embed_signup .button {
+        clear: both;
+        background-color: #aaa;
+        border: 0 none;
+        border-radius: 4px;
+        transition: all 0.23s ease-in-out 0s;
+        color: #FFFFFF;
+        cursor: pointer;
+        display: inline-block;
+        font-size: 15px;
+        font-weight: normal;
+        height: 32px;
+        line-height: 32px;
+        margin: 0 5px 10px 0;
+        padding: 0 22px;
+        text-align: center;
+        text-decoration: none;
+        vertical-align: top;
+        white-space: nowrap;
+        width: auto;
+    }
+
+        #mc_embed_signup .button:hover {
+            background-color: #777;
+        }
+
+    #mc_embed_signup .small-meta {
+        font-size: 11px;
+    }
+
+    #mc_embed_signup .nowrap {
+        white-space: nowrap;
+    }
+
+    #mc_embed_signup .mc-field-group {
+        clear: left;
+        position: relative;
+        width: 96%;
+        padding-bottom: 3%;
+        min-height: 50px;
+    }
+
+    #mc_embed_signup .size1of2 {
+        clear: none;
+        float: left;
+        display: inline-block;
+        width: 46%;
+        margin-right: 4%;
+    }
+
+    * html #mc_embed_signup .size1of2 {
+        margin-right: 2%; /* Fix for IE6 double margins. */
+    }
+
+    #mc_embed_signup .mc-field-group label {
+        display: block;
+        margin-bottom: 3px;
+    }
+
+    #mc_embed_signup .mc-field-group input {
+        display: block;
+        width: 100%;
+        padding: 4px 0;
+        text-indent: 2%;
+    }
+
+    #mc_embed_signup .mc-field-group select {
+        display: inline-block;
+        width: 99%;
+        padding: 5px 0;
+        margin-bottom: 2px;
+    }
+
+    #mc_embed_signup .datefield, #mc_embed_signup .phonefield-us {
+        padding: 5px 0;
+    }
+
+        #mc_embed_signup .datefield input, #mc_embed_signup .phonefield-us input {
+            display: inline;
+            width: 60px;
+            margin: 0 2px;
+            letter-spacing: 1px;
+            text-align: center;
+            padding: 5px 0 2px 0;
+        }
+
+        #mc_embed_signup .phonefield-us .phonearea input, #mc_embed_signup .phonefield-us .phonedetail1 input {
+            width: 40px;
+        }
+
+        #mc_embed_signup .datefield .monthfield input, #mc_embed_signup .datefield .dayfield input {
+            width: 30px;
+        }
+
+        #mc_embed_signup .datefield label, #mc_embed_signup .phonefield-us label {
+            display: none;
+        }
+
+    #mc_embed_signup .indicates-required {
+        text-align: right;
+        font-size: 11px;
+        margin-right: 4%;
+    }
+
+    #mc_embed_signup .asterisk {
+        color: #e85c41;
+        font-size: 150%;
+        font-weight: normal;
+        position: relative;
+        top: 5px;
+    }
+
+    #mc_embed_signup .clear {
+        clear: both;
+    }
+
+    #mc_embed_signup .mc-field-group.input-group ul {
+        margin: 0;
+        padding: 5px 0;
+        list-style: none;
+    }
+
+        #mc_embed_signup .mc-field-group.input-group ul li {
+            display: block;
+            padding: 3px 0;
+            margin: 0;
+        }
+
+    #mc_embed_signup .mc-field-group.input-group label {
+        display: inline;
+    }
+
+    #mc_embed_signup .mc-field-group.input-group input {
+        display: inline;
+        width: auto;
+        border: none;
+    }
+
+    #mc_embed_signup div#mce-responses {
+        float: left;
+        top: -1.4em;
+        padding: 0em .5em 0em .5em;
+        overflow: hidden;
+        width: 90%;
+        margin: 0 5%;
+        clear: both;
+    }
+
+    #mc_embed_signup div.response {
+        margin: 1em 0;
+        padding: 1em .5em .5em 0;
+        font-weight: bold;
+        float: left;
+        top: -1.5em;
+        z-index: 1;
+        width: 80%;
+    }
+
+    #mc_embed_signup #mce-error-response {
+        display: none;
+    }
+
+    #mc_embed_signup #mce-success-response {
+        color: #529214;
+        display: none;
+    }
+
+    #mc_embed_signup label.error {
+        display: block;
+        float: none;
+        width: auto;
+        margin-left: 1.05em;
+        text-align: left;
+        padding: .5em 0;
+    }
+
+    #mc-embedded-subscribe {
+        clear: both;
+        width: auto;
+        display: block;
+        margin: 1em 0 1em 5%;
+    }
+
+    #mc_embed_signup #num-subscribers {
+        font-size: 1.1em;
+    }
+
+        #mc_embed_signup #num-subscribers span {
+            padding: .5em;
+            border: 1px solid #ccc;
+            margin-right: .5em;
+            font-weight: bold;
+        }
+
+    #mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {
+        display: inline-block;
+        margin: 2px 0 1em 0;
+        padding: 5px 10px;
+        background-color: rgba(255,255,255,0.85);
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        font-size: 14px;
+        font-weight: normal;
+        z-index: 1;
+        color: #e85c41;
+    }
+
+    #mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error {
+        border: 2px solid #e85c41;
+    }
+</style>
+<style type="text/css">
+           #mc_embed_signup {
+               background: #fff;
+               clear: left;
+               font: 14px Helvetica,Arial,sans-serif;
+           }
+           /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+    We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+
+<div class="leftcol">
+</div>
+
+<div class="rightcol">
+
+    <div><span class="close">&times;</span></div>
+
+    <div>
+        <h1 class="tit">Before you go… don't miss out!</h1>
+        <h2 class="subtit">Take 10% off your first order and have access to our novelties and exclusive campaigns!</h2>
+    </div>
+
+    <div>
+
+        <div id="mc_embed_signup">
+            <form action="https://bykoket.us15.list-manage.com/subscribe/post?u=d12f89496414f9c5c995a929b&amp;id=c1fef3a99c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <div id="mc_embed_signup_scroll">
+                    <div class="mc-field-group">
+                        <label for="mce-EMAIL">
+                            Email Address  <span class="asterisk">*</span>
+                        </label>
+                        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                    </div>
+                    <div id="mce-responses" class="clear">
+                        <div class="response" id="mce-error-response" style="display:none"></div>
+                        <div class="response" id="mce-success-response" style="display:none"></div>
+                    </div>-->
+<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+<!--<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_b02873c3983c16eeaa5576c88_d30ca1f4ad" tabindex="-1" value=""></div>
+            <div class="btns">
+                <input type="submit" value="Sign Up" name="subscribe" id="mc-embedded-subscribe" class="button">
+                <span class="arrow">&#8594;</span>
+            </div>
+        </div>
+    </form>
+</div>
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+<script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script>-->
+<!--End mc_embed_signup-->
+<!--<div class="lil">By clicking SIGN UP, you agree to receive emails from KOKET and agree to our <a href="https://www.bykoket.com/privacy-policy.php" style="color: #fff;">terms of use</a> and <a href="https://www.bykoket.com/privacy-policy.php" style="color: #fff;">privacy policy</a>.</div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>-->
+<!--<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal
+
+if(localStorage.getItem('submail') != '1'){
+
+  setTimeout(function () {
+
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+
+      modal.style.display = "block";
+
+    } else {
+
+      $('body').mouseleave(function() {
+        modal.style.display = "block";
+      });
+
+    }
+
+  }, 5000);
+
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+  localStorage.setItem('submail','1');
+  location.reload();
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+    localStorage.setItem('submail','1');
+    location.reload();
+
+  }
+}
+    </script>-->
+
+<style>
+
+        #mc_embed_signup form {
+            padding: 0 !important;
+        }
+
+        #mc_embed_signup .mc-field-group, #mc_embed_signup .indicates-required {
+            width: 100% !important;
+        }
+
+        #mc_embed_signup .mc-field-group {
+            padding-bottom: 1rem !important;
+        }
+
+        #mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {
+            margin: 0.5rem 0 !important;
+            padding: 0 !important;
+        }
+
+        #mc_embed_signup div#mce-responses {
+            padding: 0 !important;
+            margin: 0 !important;
+            width: 100% !important;
+        }
+
+        #mc_embed_signup div.response {
+            width: 100% !important;
+        }
+
+        #mc_embed_signup #mce-success-response {
+            color: #333 !important;
+        }
+
+        #mc_embed_signup input {
+            border-radius: 0 !important;
+            border: none;
+        }
+
+        .modal-content {
+            border: none;
+            background: #000;
+            color: #fff;
+        }
+
+        #mc_embed_signup_scroll {
+            background: #000;
+        }
+
+        #mc_embed_signup {
+            margin-top: 40px;
+        }
+
+            #mc_embed_signup .button {
+                border: none;
+                background: #000 !important;
+                color: #fff !important;
+                height: auto;
+                line-height: normal;
+                font-size: 11px;
+                font-family: sans-serif;
+                letter-spacing: normal;
+                padding: 0;
+                margin: 0;
+                letter-spacing: 1px;
+            }
+
+        .leftcol, .rightcol {
+            width: 50%;
+            float: left;
+        }
+
+        .leftcol {
+            background: #fff;
+        }
+
+        .rightcol {
+            padding: 20px;
+        }
+
+        .close {
+            opacity: 1;
+        }
+
+        #mc_embed_signup {
+            background: #000;
+        }
+
+        .clearfix::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+
+        #mc_embed_signup .mc-field-group input {
+            border: none;
+            border-bottom: 1px solid #fff;
+            background: #000;
+            text-indent: 0;
+            color: #fff;
+        }
+
+        ::placeholder {
+            color: #fff;
+            font-size: 12px;
+            opacity: 1; /* Firefox */
+        }
+
+        :-ms-input-placeholder { /* Internet Explorer 10-11 */
+            color: #fff;
+            font-size: 12px;
+        }
+
+        ::-ms-input-placeholder { /* Microsoft Edge */
+            color: #fff;
+            font-size: 12px;
+        }
+
+        #mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error {
+            border: 0;
+            border-bottom: 1px solid #f00;
+        }
+
+        #mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {
+            background: #000;
+        }
+
+        #mc_embed_signup .button {
+            display: inline-block;
+            float: left;
+        }
+
+        .arrow {
+            font-size: 18px;
+            display: inline;
+            float: left;
+            margin-top: -6px;
+            margin-left: 6px;
+        }
+
+        .btns {
+            margin-top: 20px;
+        }
+
+        .lil {
+            font-size: 10px;
+            color: #fff;
+            margin-top: 110px;
+            line-height: 16px;
+            margin-bottom: 20px;
+        }
+
+        .leftcol {
+            background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(https://www.bykoket.com/imagem-pop-up.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .leftcol {
+            height: 450px;
+        }
+
+        .tit, .subtit {
+            text-align: left;
+        }
+
+        .tit {
+            font-size: 22px;
+            font-family: Didot-Regular;
+            margin-top: 40px;
+        }
+
+        .subtit {
+            font-size: 16px;
+            font-family: Titillium-Light;
+        }
+
+        @@media (max-width:800px) {
+            .leftcol {
+                display: none;
+                height: auto;
+            }
+
+            .rightcol {
+                width: 100%;
+            }
+
+            .lil {
+                margin-top: 80px;
+            }
+
+            .modal-content {
+                width: 100%;
+            }
+        }
+
+        .lil a {
+            color: #fff !important;
+            text-decoration: underline !important;
+        }
+
+            .lil a:hover {
+                color: #fff !important;
+                text-decoration: none !important;
+            }
+
+        #mc_embed_signup #mce-success-response {
+            color: #fff !important;
+        }
+
+        #mc_embed_signup div.response {
+            margin: 0;
+            padding: 0;
+            font-weight: normal;
+            margin-top: 20px;
+        }
+</style>
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NN9J39M"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+<!-- Camera Master -->
+<link rel='stylesheet' id='camera-css' href='~/KOKETLoveHappens_files/camera.css' type='text/css' media='all'>
+<script type='text/javascript' src='~/KOKETLoveHappens_files/jquery.mobile.customized.min.js'></script>
+<script type='text/javascript' src='~/KOKETLoveHappens_files/jquery.easing.1.3.js'></script>
+<script type='text/javascript' src='~/KOKETLoveHappens_files/camera.js'></script>
+
+<!-- Bootstrap -->
+<link href="~/KOKETLoveHappens_files/bootstrap.css" rel="stylesheet">
+
+<link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Italianno' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300,300italic,400italic,600,600italic' rel='stylesheet' type='text/css'>
+
+<script src="~/KOKETLoveHappens_files/jquery.flexslider-min.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        var newt = "";
+        $('.flexslider12').flexslider({
+            directionNav: false,
+            pauseOnHover: true,            //Boolean: Pause the slideshow when hovering over slider, then resume when no longer hovering
+            animation: "slide",
+            slideshow: true,                //Boolean: Animate slider automatically
+            slideshowSpeed: 3000,
+            animationSpeed: 2000,
+            touch: true,
+            controlNav: true,
+
+        });
+        $('.flexslider14').flexslider({
+            directionNav: false,
+            pauseOnHover: true,            //Boolean: Pause the slideshow when hovering over slider, then resume when no longer hovering
+            animation: "slide",
+            slideshow: true,                //Boolean: Animate slider automatically
+            slideshowSpeed: 54000,
+            animationSpeed: 1000,
+            touch: true,
+            controlNav: true,
+        });
+        $('.flexslider13').flexslider({
+            directionNav: false,
+            pauseOnHover: true,            //Boolean: Pause the slideshow when hovering over slider, then resume when no longer hovering
+            animation: "fade",
+            slideshow: true,                //Boolean: Animate slider automatically
+            slideshowSpeed: 3000,
+            animationSpeed: 2000,
+            touch: true,
+            controlNav: false,
+        });
+    });
+</script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        jQuery('#camera_wrap_5').camera({
+            height: 'auto',
+            autoAdvance: true,
+            alignment: 'center',
+            mobileAutoAdvance: true,
+            pagination: false,
+            thumbnails: false,
+            cols: 6,
+            fx: 'scrollHorz',
+            slicedCols: 12,
+            transPeriod: 1000,
+            time: 900,
+            loader: 'none',
+            navigationHover: true,
+            playPause: false,
+        });
+
+        jQuery('#camera_wrap_4').camera({
+            height: 'auto',
+            autoAdvance: true,
+            alignment: 'center',
+            mobileAutoAdvance: true,
+            pagination: false,
+            thumbnails: false,
+            cols: 6,
+            fx: 'scrollLeft',
+            transPeriod: 1000,
+            time: 900,
+            loader: 'none',
+            navigationHover: true,
+            playPause: false,
+        });
+
+
+        jQuery('#camera_wrap_3').camera({
+            height: 'auto',
+            autoAdvance: true,
+            alignment: 'center',
+            pagination: false,
+            thumbnails: false,
+            slicedCols: 12,
+            fx: 'scrollHorz',
+            transPeriod: 1200,
+            time: 100,
+            loader: 'none',
+            navigationHover: true,
+            playPause: false,
+            hover: true,
+        });
+
+
+    })
+</script>
+
+
+<script src="https://use.fontawesome.com/0dba7ed7cf.js"></script>
+<style type="text/css">
+        .user-header {
+            background: #F2F2F2;
+            text-transform: uppercase;
+            font-size: 12px;
+            height: 28px;
+            padding: 0 10px 0 10px;
+        }
+
+            .user-header a {
+                display: inline;
+                width: auto;
+                height: auto;
+            }
+
+            .user-header .container {
+                max-width: 1195px;
+                margin: 0 auto;
+            }
+
+        .container-cart-drop-down {
+            max-width: 1140px;
+            margin: 0 auto;
+        }
+
+        .big-user-menu {
+            float: right;
+        }
+
+            .big-user-menu div {
+                float: left;
+            }
+
+        .user-menu {
+            margin-top: 8px;
+            font-size: 0;
+        }
+
+            .user-menu span {
+                padding: 0 10px;
+                color: #000;
+                font-size: 12px;
+            }
+
+            .user-menu a {
+                padding: 0 10px;
+                color: #000;
+                text-decoration: none;
+                font-size: 12px;
+            }
+
+                .user-menu a:last-child {
+                    border-left: 1px solid #000;
+                }
+
+                .user-menu a:hover {
+                    text-decoration: underline;
+                }
+
+        .user-header img {
+            height: 22px;
+            display: block;
+            margin-top: 4px;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: fixed;
+            width: 1140px;
+            height: auto;
+        }
+
+        .dropdown-content-cart {
+            position: relative;
+            background-color: #fff;
+            width: 350px;
+            height: 400px;
+            -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+            float: right;
+        }
+
+            .dropdown-content-cart .header-cart {
+                padding: 10px;
+                padding-bottom: 0;
+            }
+
+                .dropdown-content-cart .header-cart:first-child div {
+                    padding-bottom: 10px;
+                    margin-bottom: 10px;
+                    border-bottom: 1px solid #ddd;
+                    color: #333;
+                    font-weight: bold;
+                }
+
+            .dropdown-content-cart > .products {
+                margin: 0 10px 0 10px;
+                height: 335px;
+                overflow-y: scroll;
+            }
+
+        .user-header i {
+            color: #000;
+        }
+
+        .dropdown-content-cart > .products > .item {
+            padding: 0;
+            width: calc(100% - 20px);
+            border-bottom: 1px solid #ddd;
+        }
+
+            .dropdown-content-cart > .products > .item div:first-child, .dropdown-content-cart > .products > .item div:last-child {
+                float: left;
+            }
+
+                .dropdown-content-cart > .products > .item div:first-child img {
+                    width: auto;
+                }
+
+            .dropdown-content-cart > .products > .item div:last-child {
+                padding-left: 20px;
+            }
+
+                .dropdown-content-cart > .products > .item div:last-child a {
+                    font-family: "Galaxie-Polaris-Bold";
+                    text-transform: uppercase;
+                    font-size: 12px;
+                    letter-spacing: 2px;
+                    text-decoration: none;
+                    color: #222;
+                }
+
+                    .dropdown-content-cart > .products > .item div:last-child a:hover {
+                        color: #aaa;
+                    }
+
+        @@media all and (max-width: 1200px) {
+            .cartcart {
+                display: none;
+            }
+        }
+
+        .cart-dropdown span {
+            position: absolute;
+            background: #9D875C;
+            width: 15px;
+            height: 15px;
+            margin-top: 2px;
+            border-radius: 100%;
+            text-align: center;
+            line-height: 15px;
+            z-index: 5;
+            color: #fff;
+            font-size: 10px;
+            -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+        }
+
+        .user-menu .outlet-title {
+            padding: 0;
+            color: #9D875C;
+        }
+
+        .user-menu .outlet-phone {
+            margin-right: 20px;
+        }
+
+        .downloadss {
+            background: #F2F2F2;
+            height: 28px;
+            text-transform: uppercase;
+            font-size: 12px;
+            line-height: 28px;
+            width: 50%;
+            float: left;
+        }
+
+            .downloadss a {
+                color: #222;
+                text-decoration: underline;
+            }
+
+                .downloadss a:hover {
+                    text-decoration: none;
+                }
+
+            .downloadss .nav {
+                margin: 0;
+                padding: 0;
+                float: left;
+            }
+
+            .downloadss .nav {
+                margin: 0;
+                padding: 0;
+                float: left;
+            }
+
+            .downloadss .container {
+                padding: 0 20px 0 20px;
+            }
+
+            .downloadss .nav li:first-child {
+                display: inline-block;
+                padding: 0 2px 0 0;
+            }
+
+            .downloadss .nav li:last-child {
+                display: inline-block;
+                padding: 0 0 0 2px;
+            }
+
+            .downloadss .nav li {
+                display: inline-block;
+                padding: 0 2px 0 2px;
+            }
+
+                .downloadss .nav li a {
+                    color: #4B4B4B;
+                    text-decoration: none;
+                }
+
+        @@media all and (max-width: 1200px) {
+            .big-user-menu {
+                margin-right: 10px;
+            }
+        }
+
+        @@media all and (max-width: 1000px) {
+            .downloadss, .user-menu .outlet-phone {
+                display: block;
+                float:left;
+            }
+        }
+</style>
+
+<style>
+        /*'   mahmoudkhani '*/
+    @@font-face {
+        font-family: BYekan-webfont;
+        src: url(/KOKETLoveHappens_files/css/fonts/BYekan-webfont.eot);
+        src: url(/KOKETLoveHappens_files/css/fonts/BYekan-webfont.ttf), url(/KOKETLoveHappens_files/css/fonts/BYekan-webfont.woff) format('woff');
+        font-weight: 400;
+        font-style: normal
+    }
+        body {
+            font-family: BYekan-webfont;
+            font-size: 15px;
+        }
+        #nav-header-desktop .navbar-nav > li {
+            float: right;
+        }
+        .menu-header {
+            font-family: BYekan-webfont;
+            font-size: 15px;
+        }
+          @@media all and (max-width: 600px) {
+	    .big-user-menu {
+		    float: right;
+		    width: 80% !important;
+		    margin-right: 0;
+		}}
+</style>

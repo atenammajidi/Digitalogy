@@ -1,0 +1,119 @@
+﻿@page
+@using Digitalogygroup.DataLayer.Entities.Products
+@model Digitalogygroup.Web.Pages.Admin.Groups.CreateGroupModel
+@{
+    ViewData["Title"] = "افزودن گروه";
+    List<Tbl_ProductGroup> ProductGroupList = ViewData["Groups"] as List<Tbl_ProductGroup>;
+}
+
+<div class="row">
+    <div class="col-lg-12">
+        <h1 class="page-header">افزودن گروه جدید</h1>
+    </div>
+    <!-- /.col-lg-12 -->
+</div>
+
+<div class="row">
+    <form method="post" enctype="multipart/form-data">
+        <div class="col-md-12">
+            <div class="panel panel-success">
+                <div class="panel-heading">
+                    اطلاعات گروه
+                </div>
+                <!-- /.panel-heading -->
+                <div class="panel-body">
+
+
+                    <div class="form-group">
+                        <label>عنوان گروه</label>
+                        <input type="text" asp-for="VM.GroupTitle" class="form-control">
+                    </div>
+                    <span asp-validation-for="VM.GroupTitle"></span>
+
+                    @*<div class="form-group">
+            <label>شناسه والد</label>
+            <input type="text" asp-for="VM.FK_Parent" class="form-control">
+        </div>
+        <span asp-validation-for="VM.FK_Parent"></span>*@
+
+                    <div class="form-group">
+                        <label>وضعیت</label>
+                        <br />
+                        فعال <input type="radio" value="1" name="optradio" checked />
+                        غیرفعال  <input type="radio" value="0" name="optradio" />
+                    </div>
+                    <span asp-validation-for="VM.IsActive"></span>
+
+
+                    <div class="form-group">
+                        <label>اولویت</label>
+                        <input type="text" asp-for="VM.priority" class="form-control">
+                    </div>
+                    <span asp-validation-for="VM.priority"></span>
+
+
+
+
+                    <div class="form-group">
+                        <label>سرگروه </label>
+
+
+                        <ul>
+                            @if (ProductGroupList != null)
+                            {
+                                @foreach (var gp in ProductGroupList.Where(p => p.FK_Parent == null))
+                                {
+                                    <li>
+                                        <input type="radio" name="SelectedParent" value="@gp.Id" /> @gp.GroupTitle
+
+                                        @if (ProductGroupList.Any(p => p.FK_Parent == gp.FK_Parent))
+                                        {
+                                            <ul>
+                                                @foreach (var sub in ProductGroupList.Where(p => p.FK_Parent == gp.Id))
+                                                {
+                                                    <li>
+                                                        <input type="radio" name="SelectedParent" value="@sub.Id" /> @sub.GroupTitle
+                                                        @if (ProductGroupList.Any(p => p.FK_Parent == sub.FK_Parent))
+                                                        {
+                                                            <ul>
+
+                                                                @foreach (var sub2 in ProductGroupList.Where(p => p.FK_Parent == sub.Id))
+                                                                {
+                                                                    <li>
+                                                                        <input type="radio" name="SelectedParent" value="@sub2.Id" /> @sub2.GroupTitle
+                                                                    </li>
+                                                                }
+                                                            </ul>
+                                                        }
+                                                    </li>
+                                                }
+                                            </ul>
+                                        }
+                                    </li>
+                                }
+                            }
+                        </ul>
+                    </div>
+                    <span asp-validation-for="VM.FK_Parent"></span>
+
+
+                    <br />
+
+                    <input type="submit" value="ذخیره اطلاعات" class="btn btn-success" />
+                </div>
+                <!-- /.panel-body -->
+            </div>
+        </div>
+
+
+    </form>
+</div>
+
+<script src="~/js/bootstrap.min.js"></script>
+<script src="`/js/script.js"></script>
+
+<script src="~/js/jquery.validate.min.js"></script>
+<script src="~/js/jquery.validate.unobtrusive.js"></script>
+
+
+

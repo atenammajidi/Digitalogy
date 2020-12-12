@@ -1,0 +1,158 @@
+﻿@page
+@using Digitalogygroup.DataLayer.Entities.Products
+@model Digitalogygroup.Web.Pages.Admin.Products.CreateProductModel
+@{
+    ViewData["Title"] = "افزودن محصول جدید";
+    List<Tbl_ProductGroup> ProductGroupList = ViewData["Groups"] as List<Tbl_ProductGroup>;
+}
+
+
+<div class="row">
+    <div class="col-lg-12">
+        <h1 class="page-header">افزودن محصول جدید</h1>
+    </div>
+    <!-- /.col-lg-12 -->
+</div>
+
+<div class="row">
+    <form method="post" enctype="multipart/form-data">
+        <div class="col-md-8">
+            <div class="panel panel-success">
+                <div class="panel-heading">
+                    اطلاعات محصول
+                </div>
+                <!-- /.panel-heading -->
+                <div class="panel-body">
+
+                    <div class="form-group">
+                        <label>عنوان محصول</label>
+                        <input type="text" asp-for="VM.ProductTitle" class="form-control">
+                    </div>
+                    <span asp-validation-for="VM.ProductTitle"></span>
+
+
+
+                    <div class="form-group">
+                        <label>شرح کوتاه محصول</label>
+                        <input type="text" asp-for="VM.ProdShortDesc" class="form-control">
+                    </div>
+                    <span asp-validation-for="VM.ProdShortDesc"></span>
+
+
+                    <div class="form-group">
+                        <label>شرح کامل محصول</label>
+                        <input type="text" asp-for="VM.ProdFullDesc" class="form-control">
+                    </div>
+                    <span asp-validation-for="VM.ProdFullDesc"></span>
+
+
+                    <div class="form-group">
+                        <label>زبان</label>
+                        <br />
+                        فارسی <input type="radio" value="1" name="rbtLan"  checked />
+                        انگلیسی  <input type="radio" value="2" name="rbtLan"/>
+                    </div>
+                    <span asp-validation-for="VM.FK_Language"></span>
+
+
+
+                    <div class="form-group">
+                        <label>وضعیت</label>
+                        <br />
+                        فعال <input type="radio" value="1" name="optradio" checked />
+                        غیرفعال  <input type="radio" value="0" name="optradio" />
+                    </div>
+                    <span asp-validation-for="VM.IsActive"></span>
+
+
+                    <div class="form-group">
+                        <label>انتخاب سرگروه </label>
+
+
+                        <ul>
+                            @if (ProductGroupList != null)
+                            {
+                                @foreach (var gp in ProductGroupList.Where(p => p.FK_Parent == null))
+                                {
+                                    <li>
+                                        <input type="radio" name="SelectedParent" value="@gp.Id" /> @gp.GroupTitle
+
+                                        @if (ProductGroupList.Any(p => p.FK_Parent == gp.FK_Parent))
+                                        {
+                                            <ul>
+                                                @foreach (var sub in ProductGroupList.Where(p => p.FK_Parent == gp.Id))
+                                                {
+                                                    <li>
+                                                        <input type="radio" name="SelectedParent" value="@sub.Id" /> @sub.GroupTitle
+                                                        @if (ProductGroupList.Any(p => p.FK_Parent == sub.FK_Parent))
+                                                        {
+                                                            <ul>
+
+                                                                @foreach (var sub2 in ProductGroupList.Where(p => p.FK_Parent == sub.Id))
+                                                                {
+                                                                    <li>
+                                                                        <input type="radio" name="SelectedParent" value="@sub2.Id" /> @sub2.GroupTitle
+                                                                    </li>
+                                                                }
+                                                            </ul>
+                                                        }
+                                                    </li>
+                                                }
+                                            </ul>
+                                        }
+                                    </li>
+                                }
+                            }
+                        </ul>
+                    </div>
+                    <span asp-validation-for="VM.FK_Group"></span>
+
+
+
+                    <input type="submit" value="ذخیره اطلاعات" class="btn btn-success" />
+                </div>
+                <!-- /.panel-body -->
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="panel panel-success">
+                <div class="panel-heading">
+                    تصویر محصول
+                </div>
+                <!-- /.panel-heading -->
+                <div class="panel-body">
+                    <img id="imgProd" class="thumbnail" src="~/ProductPics/Defult.jpg" />
+                    <div class="form-group">
+                        <label>انتخاب تصویر</label>
+                        <input type="file" asp-for="VM.pic">
+                    </div>
+                </div>
+                <!-- /.panel-body -->
+            </div>
+
+        </div>
+
+    </form>
+</div>
+
+@section Scripts
+{
+    <script>
+        function readURL(input) {
+
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+
+                reader.onload = function (e) {
+                    $('#imgProd').attr('src', e.target.result);
+                }
+
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+
+        $("#VM_pic").change(function () {
+            readURL(this);
+        });
+    </script>
+}

@@ -1,0 +1,166 @@
+D:\My Projects\Ayoobi furniture Core\Ayoobifurniture\Ayoobifurniture.Web\bin\Debug\netcoreapp2.1\Ayoobifurniture.Web.deps.json
+D:\My Projects\Ayoobi furniture Core\Ayoobifurniture\Ayoobifurniture.Web\bin\Debug\netcoreapp2.1\Ayoobifurniture.Web.runtimeconfig.json
+D:\My Projects\Ayoobi furniture Core\Ayoobifurniture\Ayoobifurniture.Web\bin\Debug\netcoreapp2.1\Ayoobifurniture.Web.runtimeconfig.dev.json
+D:\My Projects\Ayoobi furniture Core\Ayoobifurniture\Ayoobifurniture.Web\bin\Debug\netcoreapp2.1\Ayoobifurniture.Web.dll
+D:\My Projects\Ayoobi furniture Core\Ayoobifurniture\Ayoobifurniture.Web\bin\Debug\netcoreapp2.1\Ayoobifurniture.Web.pdb
+D:\My Projects\Ayoobi furniture Core\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Ayoobifurniture.Web.csprojAssemblyReference.cache
+D:\My Projects\Ayoobi furniture Core\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Ayoobifurniture.Web.csproj.CoreCompileInputs.cache
+D:\My Projects\Ayoobi furniture Core\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Ayoobifurniture.Web.RazorAssemblyInfo.cache
+D:\My Projects\Ayoobi furniture Core\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Ayoobifurniture.Web.RazorAssemblyInfo.cs
+D:\My Projects\Ayoobi furniture Core\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Ayoobifurniture.Web.AssemblyInfoInputs.cache
+D:\My Projects\Ayoobi furniture Core\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Ayoobifurniture.Web.AssemblyInfo.cs
+D:\My Projects\Ayoobi furniture Core\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Ayoobifurniture.Web.RazorTargetAssemblyInfo.cache
+D:\My Projects\Ayoobi furniture Core\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Ayoobifurniture.Web.dll
+D:\My Projects\Ayoobi furniture Core\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Ayoobifurniture.Web.pdb
+D:\My Projects\Ayoobi furniture Core\Ayoobifurniture\Ayoobifurniture.Web\bin\Debug\netcoreapp2.1\Ayoobifurniture.DataLayer.dll
+D:\My Projects\Ayoobi furniture Core\Ayoobifurniture\Ayoobifurniture.Web\bin\Debug\netcoreapp2.1\Ayoobifurniture.DataLayer.pdb
+D:\My Projects\Ayoobi furniture Core\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Ayoobifurniture.Web.csproj.CopyComplete
+D:\My Projects\Ayoobi furniture Core\Ayoobifurniture\Ayoobifurniture.Web\bin\Debug\netcoreapp2.1\Ayoobifurniture.Core.dll
+D:\My Projects\Ayoobi furniture Core\Ayoobifurniture\Ayoobifurniture.Web\bin\Debug\netcoreapp2.1\Ayoobifurniture.Core.pdb
+D:\My Projects\Ayoobi furniture Core\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Ayoobifurniture.Web.TagHelpers.input.cache
+D:\My Projects\Ayoobi furniture Core\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Ayoobifurniture.Web.TagHelpers.output.cache
+D:\My Projects\Ayoobi furniture Core\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Ayoobifurniture.Web.RazorCoreGenerate.cache
+D:\My Projects\Ayoobi furniture Core\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+D:\My Projects\Ayoobi furniture Core\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+D:\My Projects\Ayoobi furniture Core\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Ayoobifurniture.Web.RazorTargetAssemblyInfo.cs
+D:\My Projects\Ayoobi furniture Core\Ayoobifurniture\Ayoobifurniture.Web\bin\Debug\netcoreapp2.1\Ayoobifurniture.Web.Views.dll
+D:\My Projects\Ayoobi furniture Core\Ayoobifurniture\Ayoobifurniture.Web\bin\Debug\netcoreapp2.1\Ayoobifurniture.Web.Views.pdb
+D:\My Projects\Ayoobi furniture Core\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Ayoobifurniture.Web.Views.pdb
+D:\My Projects\Ayoobi furniture Core\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Footer.g.cshtml.cs
+D:\My Projects\Ayoobi furniture Core\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_MainMenu.g.cshtml.cs
+D:\My Projects\Ayoobi furniture Core\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_MetaTags.g.cshtml.cs
+D:\My Projects\Ayoobi furniture Core\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Styles.g.cshtml.cs
+D:\My Projects\Ayoobi furniture Core\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+D:\My Projects\Ayoobi furniture Core\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\demolayout.g.cshtml.cs
+D:\My Projects\Ayoobi furniture Core\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_DefualtLayout.g.cshtml.cs
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Web\bin\Debug\netcoreapp2.1\appsettings.json
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Web\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Web\bin\Debug\netcoreapp2.1\Ayoobifurniture.Web.deps.json
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Web\bin\Debug\netcoreapp2.1\Ayoobifurniture.Web.runtimeconfig.json
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Web\bin\Debug\netcoreapp2.1\Ayoobifurniture.Web.runtimeconfig.dev.json
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Web\bin\Debug\netcoreapp2.1\Ayoobifurniture.Web.dll
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Web\bin\Debug\netcoreapp2.1\Ayoobifurniture.Web.pdb
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Web\bin\Debug\netcoreapp2.1\Ayoobifurniture.Web.Views.dll
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Web\bin\Debug\netcoreapp2.1\Ayoobifurniture.Web.Views.pdb
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Web\bin\Debug\netcoreapp2.1\Ayoobifurniture.Core.dll
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Web\bin\Debug\netcoreapp2.1\Ayoobifurniture.DataLayer.dll
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Web\bin\Debug\netcoreapp2.1\Ayoobifurniture.Core.pdb
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Web\bin\Debug\netcoreapp2.1\Ayoobifurniture.DataLayer.pdb
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Ayoobifurniture.Web.csprojAssemblyReference.cache
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Ayoobifurniture.Web.csproj.CoreCompileInputs.cache
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Ayoobifurniture.Web.RazorAssemblyInfo.cache
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Ayoobifurniture.Web.RazorAssemblyInfo.cs
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Ayoobifurniture.Web.AssemblyInfoInputs.cache
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Ayoobifurniture.Web.AssemblyInfo.cs
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Ayoobifurniture.Web.TagHelpers.input.cache
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Ayoobifurniture.Web.TagHelpers.output.cache
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Ayoobifurniture.Web.RazorCoreGenerate.cache
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\Groups\CreateGroup.cshtml.g.cs
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\Groups\EditGroup.cshtml.g.cs
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\Groups\Index.cshtml.g.cs
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\Index.cshtml.g.cs
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\ManageUsers\CreateUser.cshtml.g.cs
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\ManageUsers\EditUser.cshtml.g.cs
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\ManageUsers\Index.cshtml.g.cs
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\Products\CreateProduct.cshtml.g.cs
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\Products\EditProduct.cshtml.g.cs
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\Products\Index.cshtml.g.cs
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\Roles\CreateRole.cshtml.g.cs
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\Roles\DeleteRole.cshtml.g.cs
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\Roles\EditRole.cshtml.g.cs
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\Roles\Index.cshtml.g.cs
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Shared\_AdminLayout.cshtml.g.cs
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Shared\_Styles.cshtml.g.cs
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Pages\_ViewImports.cshtml.g.cs
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Pages\_ViewStart.cshtml.g.cs
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.cshtml.g.cs
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\demolayout.cshtml.g.cs
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_DefualtLayout.cshtml.g.cs
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Footer.cshtml.g.cs
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_MainMenu.cshtml.g.cs
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_MetaTags.cshtml.g.cs
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Styles.cshtml.g.cs
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Ayoobifurniture.Web.RazorTargetAssemblyInfo.cache
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Ayoobifurniture.Web.RazorTargetAssemblyInfo.cs
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Ayoobifurniture.Web.Views.pdb
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Ayoobifurniture.Web.csproj.CopyComplete
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Ayoobifurniture.Web.dll
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Ayoobifurniture.Web.pdb
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Ayoobifurniture.Web.genruntimeconfig.cache
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\bin\Debug\netcoreapp2.1\appsettings.json
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\bin\Debug\netcoreapp2.1\Ayoobifurniture.Web.deps.json
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\bin\Debug\netcoreapp2.1\Ayoobifurniture.Web.runtimeconfig.json
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\bin\Debug\netcoreapp2.1\Ayoobifurniture.Web.runtimeconfig.dev.json
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\bin\Debug\netcoreapp2.1\Ayoobifurniture.Web.dll
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\bin\Debug\netcoreapp2.1\Ayoobifurniture.Web.pdb
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\bin\Debug\netcoreapp2.1\Ayoobifurniture.Web.Views.dll
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\bin\Debug\netcoreapp2.1\Ayoobifurniture.Web.Views.pdb
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\bin\Debug\netcoreapp2.1\Ayoobifurniture.Core.dll
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\bin\Debug\netcoreapp2.1\Ayoobifurniture.DataLayer.dll
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\bin\Debug\netcoreapp2.1\Ayoobifurniture.Core.pdb
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\bin\Debug\netcoreapp2.1\Ayoobifurniture.DataLayer.pdb
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Ayoobifurniture.Web.csprojAssemblyReference.cache
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Ayoobifurniture.Web.AssemblyInfoInputs.cache
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Ayoobifurniture.Web.AssemblyInfo.cs
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Ayoobifurniture.Web.csproj.CoreCompileInputs.cache
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Ayoobifurniture.Web.RazorAssemblyInfo.cache
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Ayoobifurniture.Web.RazorAssemblyInfo.cs
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Ayoobifurniture.Web.TagHelpers.input.cache
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Ayoobifurniture.Web.TagHelpers.output.cache
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Ayoobifurniture.Web.RazorCoreGenerate.cache
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\Content\Edit.cshtml.g.cs
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\Content\Index.cshtml.g.cs
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\Groups\CreateGroup.cshtml.g.cs
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\Groups\EditGroup.cshtml.g.cs
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\Groups\Index.cshtml.g.cs
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\Index.cshtml.g.cs
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\ManageUsers\CreateUser.cshtml.g.cs
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\ManageUsers\EditUser.cshtml.g.cs
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\ManageUsers\Index.cshtml.g.cs
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\Products\CreateProduct.cshtml.g.cs
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\Products\EditProduct.cshtml.g.cs
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\Products\Index.cshtml.g.cs
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\Roles\CreateRole.cshtml.g.cs
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\Roles\DeleteRole.cshtml.g.cs
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\Roles\EditRole.cshtml.g.cs
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\Roles\Index.cshtml.g.cs
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\SlidShow\Create.cshtml.g.cs
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\SlidShow\Edit.cshtml.g.cs
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Admin\SlidShow\Index.cshtml.g.cs
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Shared\_AdminLayout.cshtml.g.cs
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Pages\Shared\_Styles.cshtml.g.cs
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Pages\_ViewImports.cshtml.g.cs
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Pages\_ViewStart.cshtml.g.cs
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Views\About\Customers.cshtml.g.cs
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Views\About\Index.cshtml.g.cs
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Views\About\team.cshtml.g.cs
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Views\About\vision.cshtml.g.cs
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.cshtml.g.cs
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Views\Contact\Index.cshtml.g.cs
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\ContentComponent\ContentWithID.cshtml.g.cs
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\MenuComponent\MenuGroup.cshtml.g.cs
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\SlidShowComponent\SliderMain.cshtml.g.cs
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\SlidShowRightComponent\SliderRight.cshtml.g.cs
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\demolayout.cshtml.g.cs
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_content.cshtml.g.cs
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_DefualtLayout.cshtml.g.cs
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Footer.cshtml.g.cs
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_KoketLayout.cshtml.g.cs
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_MainMenu.cshtml.g.cs
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_MetaTags.cshtml.g.cs
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Styles.cshtml.g.cs
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Ayoobifurniture.Web.RazorTargetAssemblyInfo.cache
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Ayoobifurniture.Web.RazorTargetAssemblyInfo.cs
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Ayoobifurniture.Web.Views.pdb
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Ayoobifurniture.Web.csproj.CopyComplete
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Ayoobifurniture.Web.dll
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Ayoobifurniture.Web.pdb
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\Ayoobifurniture.Web.genruntimeconfig.cache
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.Web\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs

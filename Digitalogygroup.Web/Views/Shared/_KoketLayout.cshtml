@@ -1,0 +1,417 @@
+﻿<!DOCTYPE html>
+
+<html class="fa-events-icons-ready">
+ 
+<head>
+    
+    <title> فروشگاه |
+    @ViewBag.Title
+    </title>
+    <partial name="_MetaTags" />
+    <partial name="_Styles" />
+</head>
+<body>
+
+    @*<partial name="_MainMenu" />*@
+    @await Component.InvokeAsync("MenuComponent")
+
+    @RenderBody()
+    <partial name="_Footer" />
+    <style>
+        .popup-m {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            z-index: 6;
+            left: 0;
+            max-width: 400px;
+            -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+        }
+
+            .popup-m a img {
+                max-width: 400px;
+            }
+
+        #popup-m .close-m {
+            padding: 0;
+            font-size: 22px;
+            color: #111;
+            font-weight: 600;
+            margin-top: 0px;
+            left: 370px;
+            opacity: 1;
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            background: transparent !important;
+            border: 0;
+        }
+
+        .popup-m:before, .popup-m:after {
+            content: "";
+            position: absolute;
+            z-index: -1;
+            -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.6);
+            -moz-box-shadow: 0 0 20px rgba(0,0,0,0.6);
+            box-shadow: 0 0 20px rgba(0,0,0,0.6);
+            top: 10px;
+            bottom: 10px;
+            left: 0;
+            right: 0;
+            -moz-border-radius: 100px / 10px;
+            border-radius: 100px / 10px;
+        }
+
+        .popup-m:after {
+            right: 10px;
+            left: auto;
+            -webkit-transform: skew(8deg) rotate(3deg);
+            -moz-transform: skew(8deg) rotate(3deg);
+            -ms-transform: skew(8deg) rotate(3deg);
+            -o-transform: skew(8deg) rotate(3deg);
+            transform: skew(8deg) rotate(3deg);
+        }
+    </style>
+
+
+    <script>
+
+
+        $(document).ready(function () {
+            if (window.matchMedia("(min-width: 700px)").matches) {
+                setTimeout(function () {
+                    PopUp();
+                }, 5000); // 5000 to load it after 5 seconds from page load
+
+                function PopUp() {
+                    $('#popup-m').slideToggle({
+                        direction: "up"
+                    }, 800);
+                }
+
+                $('#popup-m .close-m').click(function () {
+                    $('#popup-m').slideToggle({
+                        direction: "down"
+                    }, 300);
+
+                }); // end click
+            }
+        });
+    </script>
+
+
+    <!--	<script type="text/javascript">
+
+               $(document).ready(function(){
+
+                    setTimeout(function(){
+                      PopUp();
+                    },5000); // 5000 to load it after 5 seconds from page load
+
+                    function PopUp(){
+                      $('#popup-m').slideToggle({
+                          direction: "up"
+                        }, 800);
+                    }
+
+                    $('#popup-m .close-m').click(function () {
+                      $('#popup-m').slideToggle({
+                          direction: "down"
+                        }, 300);
+
+                    }); // end click
+
+                });
+
+        </script>    -->
+    <script src="~/KOKETLoveHappens_files/jquery.scrollify.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <script>
+        $(function () {
+            $(".panel").css({ "height": $(window).height() });
+            $.scrollify({
+                section: ".panel"
+            });
+
+
+            $(".scroll").click(function (e) {
+                e.preventDefault();
+                $.scrollify("move", $(this).attr("href"));
+            });
+        });
+    </script>
+
+    <script>
+        $('#products').click(function () {
+            document.getElementById('dropdown-menu-koketworld').style.display = 'none';
+            document.getElementById('kk-bykoket').style.display = 'none';
+            $('#dropdown-menu-products').slideToggle({
+                direction: "down"
+            }, 1000);
+            $(this).toggleClass('open');
+        }); // end click
+    </script>
+    <script>
+        $('#catalogs').click(function () {
+            document.getElementById('dropdown-menu-products').style.display = 'none';
+            document.getElementById('dropdown-menu-koketworld').style.display = 'none';
+            $('#dropdown-menu-catalogs').slideToggle({
+                direction: "down"
+            }, 1000);
+            $(this).toggleClass('open');
+        }); // end click
+    </script>
+    <script>
+        $('#koketworld').click(function () {
+            document.getElementById('dropdown-menu-products').style.display = 'none';
+            $('#dropdown-menu-koketworld').slideToggle({
+                direction: "down"
+            }, 1000);
+            $(this).toggleClass('open');
+        }); // end click
+    </script>
+
+
+    <script>
+        $(document).ready(function () {
+            document.getElementById('exoticopulence').onmouseover = function () {
+                document.getElementById('guilty-pleasures').style.display = 'none';
+                document.getElementById('kk-bykoket').style.display = 'none';
+                document.getElementById('exotic-opulence').style.display = 'block';
+            }
+            document.getElementById('guiltypleasures').onmouseover = function () {
+                document.getElementById('exotic-opulence').style.display = 'none';
+                document.getElementById('kk-bykoket').style.display = 'none';
+                document.getElementById('guilty-pleasures').style.display = 'block';
+            }
+            document.getElementById('kkbykoket').onmouseover = function () {
+                document.getElementById('guilty-pleasures').style.display = 'none';
+                document.getElementById('exotic-opulence').style.display = 'none';
+                document.getElementById('kk-bykoket').style.display = 'block';
+            }
+            document.getElementById('sub-softgoods').onmouseover = function () {
+                document.getElementById('sub-textiles-thumb').style.display = 'none';
+                document.getElementById('sub-softgoods-thumb').style.display = 'block';
+            }
+            document.getElementById('sub-textiles').onmouseover = function () {
+                document.getElementById('sub-softgoods-thumb').style.display = 'none';
+                document.getElementById('sub-textiles-thumb').style.display = 'block';
+            }
+            document.getElementById('sub-casegoods').onmouseover = function () {
+                document.getElementById('sub-upholstery-thumb').style.display = 'none';
+                document.getElementById('sub-lighting-thumb').style.display = 'none';
+                document.getElementById('sub-fragrances-thumb').style.display = 'none';
+                document.getElementById('sub-casegoods-thumb').style.display = 'block';
+            }
+            document.getElementById('sub-upholstery').onmouseover = function () {
+                document.getElementById('sub-lighting-thumb').style.display = 'none';
+                document.getElementById('sub-casegoods-thumb').style.display = 'none';
+                document.getElementById('sub-fragrances-thumb').style.display = 'none';
+                document.getElementById('sub-upholstery-thumb').style.display = 'block';
+            }
+            document.getElementById('sub-lighting').onmouseover = function () {
+                document.getElementById('sub-upholstery-thumb').style.display = 'none';
+                document.getElementById('sub-casegoods-thumb').style.display = 'none';
+                document.getElementById('sub-fragrances-thumb').style.display = 'none';
+                document.getElementById('sub-lighting-thumb').style.display = 'block';
+            }
+            document.getElementById('sub-fragrances').onmouseover = function () {
+                document.getElementById('sub-upholstery-thumb').style.display = 'none';
+                document.getElementById('sub-casegoods-thumb').style.display = 'none';
+                document.getElementById('sub-lighting-thumb').style.display = 'none';
+                document.getElementById('sub-fragrances-thumb').style.display = 'block';
+            }
+        });
+    </script>
+
+
+
+    <script>
+        $('#dropdown-menu-products .drop-close').click(function () {
+            $('#dropdown-menu-products').slideToggle({
+                direction: "up"
+            }, 1000);
+            $(this).toggleClass('close');
+        }); // end click
+        $('#dropdown-menu-koketworld .drop-close').click(function () {
+            $('#dropdown-menu-koketworld').slideToggle({
+                direction: "up"
+            }, 1000);
+            $(this).toggleClass('close');
+        }); // end click
+    </script>
+
+    <script>
+        $('#DropDashboard .drop-close').click(function () {
+            if ($('#DropDownCollections #DropDashboard').is(':visible')) {
+                $('#DropDownCollections #DropDashboard').slideToggle({
+                    direction: "down"
+                }, 300);
+            }
+            if ($('#DropDownTerms #DropDashboard').is(':visible')) {
+                $('#DropDownTerms #DropDashboard').slideToggle({
+                    direction: "down"
+                }, 300);
+            }
+            if ($('#DropDownSocialWorld #DropDashboard').is(':visible')) {
+                $('#DropDownSocialWorld #DropDashboard').slideToggle({
+                    direction: "down"
+                }, 300);
+            }
+            if ($('#DropDownKoketWorld #DropDashboard').is(':visible')) {
+                $('#DropDownKoketWorld #DropDashboard').slideToggle({
+                    direction: "down"
+                }, 300);
+            }
+        }); // end click
+    </script>
+
+    <script>
+        $('#DropOpen .KoketWorld').click(function () {
+            if ($('#DropDownCollections #DropDashboard').is(':visible')) {
+                $('#DropDownCollections #DropDashboard').slideToggle({
+                    direction: "down"
+                }, 300);
+            }
+            if ($('#DropDownSocialWorld #DropDashboard').is(':visible')) {
+                $('#DropDownSocialWorld #DropDashboard').slideToggle({
+                    direction: "down"
+                }, 300);
+            }
+            if ($('#DropDownTerms #DropDashboard').is(':visible')) {
+                $('#DropDownTerms #DropDashboard').slideToggle({
+                    direction: "down"
+                }, 300);
+            }
+            $('#DropDownKoketWorld #DropDashboard').slideToggle({
+                direction: "up"
+            }, 300);
+            $(this).toggleClass('drop-close');
+        }); // end click
+    </script>
+
+    <script>
+        $('#DropOpen .Collections').click(function () {
+            if ($('#DropDownKoketWorld  #DropDashboard').is(':visible')) {
+                $('#DropDownKoketWorld  #DropDashboard').slideToggle({
+                    direction: "down"
+                }, 300);
+            }
+            if ($('#DropDownTerms #DropDashboard').is(':visible')) {
+                $('#DropDownTerms #DropDashboard').slideToggle({
+                    direction: "down"
+                }, 300);
+            }
+            if ($('#DropDownSocialWorld #DropDashboard').is(':visible')) {
+                $('#DropDownSocialWorld  #DropDashboard').slideToggle({
+                    direction: "down"
+                }, 300);
+            }
+            $('#DropDownCollections #DropDashboard').slideToggle({
+                direction: "up"
+            }, 300);
+            $(this).toggleClass('drop-close');
+        }); // end click
+    </script>
+
+    <script>
+        $('#DropOpen .SocialWorld').click(function () {
+            if ($('#DropDownCollections  #DropDashboard').is(':visible')) {
+                $('#DropDownCollections  #DropDashboard').slideToggle({
+                    direction: "down"
+                }, 300);
+            }
+            if ($('#DropDownKoketWorld  #DropDashboard').is(':visible')) {
+                $('#DropDownKoketWorld  #DropDashboard').slideToggle({
+                    direction: "down"
+                }, 300);
+            }
+            if ($('#DropDownTerms #DropDashboard').is(':visible')) {
+                $('#DropDownTerms #DropDashboard').slideToggle({
+                    direction: "down"
+                }, 300);
+            }
+            $('#DropDownSocialWorld #DropDashboard').slideToggle({
+                direction: "up"
+            }, 300);
+            $(this).toggleClass('drop-close');
+        }); // end click
+    </script>
+
+    <script>
+        $('#DropOpen .Terms').click(function () {
+            if ($('#DropDownCollections  #DropDashboard').is(':visible')) {
+                $('#DropDownCollections  #DropDashboard').slideToggle({
+                    direction: "down"
+                }, 300);
+            }
+            if ($('#DropDownKoketWorld  #DropDashboard').is(':visible')) {
+                $('#DropDownKoketWorld  #DropDashboard').slideToggle({
+                    direction: "down"
+                }, 300);
+            }
+            if ($('#DropDownSocialWorld #DropDashboard').is(':visible')) {
+                $('#DropDownSocialWorld #DropDashboard').slideToggle({
+                    direction: "down"
+                }, 300);
+            }
+            $('#DropDownTerms #DropDashboard').slideToggle({
+                direction: "up"
+            }, 300);
+            $(this).toggleClass('drop-close');
+        }); // end click
+    </script>
+
+
+    <!-- Start of LiveChat (www.livechatinc.com) code -->
+    <script type="text/javascript">
+        window.__lc = window.__lc || {};
+        window.__lc.license = 8829716;
+        (function () {
+            var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
+            lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
+        })();
+    </script>
+    <!-- End of LiveChat code -->
+
+
+    <script type="text/javascript">
+        var width = $('.ticker-text').width(),
+            containerwidth = $('.ticker-container').width(),
+            left = containerwidth;
+        $(document).ready(function (e) {
+            function tick() {
+                if (--left < -width) {
+                    left = containerwidth;
+                }
+                $(".ticker-text").css("margin-left", left + "px");
+                setTimeout(tick, 30);
+            }
+            tick();
+        });
+    </script>
+
+    <script type="text/javascript">
+        var elementPosition = $('#menu-fixed').offset();
+
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > 25) {
+                $('#menu-fixed').css('position', 'fixed').css('top', '0').css('z-index', '31000');
+                $('#main-slide').css('margin-top', '63px');
+
+            } else {
+                $('#menu-fixed').css('position', 'relative');
+                $('#main-slide').css('margin-top', '0');
+            }
+        });
+
+
+    </script>
+
+
+</body>
+</html>

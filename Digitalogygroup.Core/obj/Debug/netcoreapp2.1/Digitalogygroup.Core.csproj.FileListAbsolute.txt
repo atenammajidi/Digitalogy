@@ -1,0 +1,12 @@
+D:\mahmodkhani\Digitalogygroup\Digitalogygroup.Core\bin\Debug\netcoreapp2.1\Digitalogygroup.Core.deps.json
+D:\mahmodkhani\Digitalogygroup\Digitalogygroup.Core\bin\Debug\netcoreapp2.1\Digitalogygroup.Core.dll
+D:\mahmodkhani\Digitalogygroup\Digitalogygroup.Core\bin\Debug\netcoreapp2.1\Digitalogygroup.Core.pdb
+D:\mahmodkhani\Digitalogygroup\Digitalogygroup.Core\bin\Debug\netcoreapp2.1\Digitalogygroup.DataLayer.dll
+D:\mahmodkhani\Digitalogygroup\Digitalogygroup.Core\bin\Debug\netcoreapp2.1\Digitalogygroup.DataLayer.pdb
+D:\mahmodkhani\Digitalogygroup\Digitalogygroup.Core\obj\Debug\netcoreapp2.1\Digitalogygroup.Core.csprojAssemblyReference.cache
+D:\mahmodkhani\Digitalogygroup\Digitalogygroup.Core\obj\Debug\netcoreapp2.1\Digitalogygroup.Core.AssemblyInfoInputs.cache
+D:\mahmodkhani\Digitalogygroup\Digitalogygroup.Core\obj\Debug\netcoreapp2.1\Digitalogygroup.Core.AssemblyInfo.cs
+D:\mahmodkhani\Digitalogygroup\Digitalogygroup.Core\obj\Debug\netcoreapp2.1\Digitalogygroup.Core.csproj.CopyComplete
+D:\mahmodkhani\Digitalogygroup\Digitalogygroup.Core\obj\Debug\netcoreapp2.1\Digitalogygroup.Core.dll
+D:\mahmodkhani\Digitalogygroup\Digitalogygroup.Core\obj\Debug\netcoreapp2.1\Digitalogygroup.Core.pdb
+D:\mahmodkhani\Digitalogygroup\Digitalogygroup.Core\obj\Debug\netcoreapp2.1\Digitalogygroup.Core.csproj.CoreCompileInputs.cache

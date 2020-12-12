@@ -1,0 +1,27 @@
+D:\My Projects\Ayoobi furniture Core\Ayoobifurniture\Ayoobifurniture.DataLayer\bin\Debug\netcoreapp2.1\Ayoobifurniture.DataLayer.deps.json
+D:\My Projects\Ayoobi furniture Core\Ayoobifurniture\Ayoobifurniture.DataLayer\bin\Debug\netcoreapp2.1\Ayoobifurniture.DataLayer.dll
+D:\My Projects\Ayoobi furniture Core\Ayoobifurniture\Ayoobifurniture.DataLayer\bin\Debug\netcoreapp2.1\Ayoobifurniture.DataLayer.pdb
+D:\My Projects\Ayoobi furniture Core\Ayoobifurniture\Ayoobifurniture.DataLayer\obj\Debug\netcoreapp2.1\Ayoobifurniture.DataLayer.csproj.CoreCompileInputs.cache
+D:\My Projects\Ayoobi furniture Core\Ayoobifurniture\Ayoobifurniture.DataLayer\obj\Debug\netcoreapp2.1\Ayoobifurniture.DataLayer.AssemblyInfoInputs.cache
+D:\My Projects\Ayoobi furniture Core\Ayoobifurniture\Ayoobifurniture.DataLayer\obj\Debug\netcoreapp2.1\Ayoobifurniture.DataLayer.AssemblyInfo.cs
+D:\My Projects\Ayoobi furniture Core\Ayoobifurniture\Ayoobifurniture.DataLayer\obj\Debug\netcoreapp2.1\Ayoobifurniture.DataLayer.dll
+D:\My Projects\Ayoobi furniture Core\Ayoobifurniture\Ayoobifurniture.DataLayer\obj\Debug\netcoreapp2.1\Ayoobifurniture.DataLayer.pdb
+D:\My Projects\Ayoobi furniture Core\Ayoobifurniture\Ayoobifurniture.DataLayer\obj\Debug\netcoreapp2.1\Ayoobifurniture.DataLayer.csprojAssemblyReference.cache
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.DataLayer\bin\Debug\netcoreapp2.1\Ayoobifurniture.DataLayer.deps.json
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.DataLayer\bin\Debug\netcoreapp2.1\Ayoobifurniture.DataLayer.dll
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.DataLayer\bin\Debug\netcoreapp2.1\Ayoobifurniture.DataLayer.pdb
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.DataLayer\obj\Debug\netcoreapp2.1\Ayoobifurniture.DataLayer.csproj.CoreCompileInputs.cache
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.DataLayer\obj\Debug\netcoreapp2.1\Ayoobifurniture.DataLayer.AssemblyInfoInputs.cache
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.DataLayer\obj\Debug\netcoreapp2.1\Ayoobifurniture.DataLayer.AssemblyInfo.cs
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.DataLayer\obj\Debug\netcoreapp2.1\Ayoobifurniture.DataLayer.dll
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.DataLayer\obj\Debug\netcoreapp2.1\Ayoobifurniture.DataLayer.pdb
+D:\Done Project\Ayoobi\Ayoobifurniture\Ayoobifurniture.DataLayer\obj\Debug\netcoreapp2.1\Ayoobifurniture.DataLayer.csprojAssemblyReference.cache
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.DataLayer\bin\Debug\netcoreapp2.1\Ayoobifurniture.DataLayer.deps.json
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.DataLayer\bin\Debug\netcoreapp2.1\Ayoobifurniture.DataLayer.dll
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.DataLayer\bin\Debug\netcoreapp2.1\Ayoobifurniture.DataLayer.pdb
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.DataLayer\obj\Debug\netcoreapp2.1\Ayoobifurniture.DataLayer.csprojAssemblyReference.cache
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.DataLayer\obj\Debug\netcoreapp2.1\Ayoobifurniture.DataLayer.AssemblyInfoInputs.cache
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.DataLayer\obj\Debug\netcoreapp2.1\Ayoobifurniture.DataLayer.AssemblyInfo.cs
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.DataLayer\obj\Debug\netcoreapp2.1\Ayoobifurniture.DataLayer.csproj.CoreCompileInputs.cache
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.DataLayer\obj\Debug\netcoreapp2.1\Ayoobifurniture.DataLayer.dll
+D:\mahmodkhani\Ayoobifurniture\Ayoobifurniture.DataLayer\obj\Debug\netcoreapp2.1\Ayoobifurniture.DataLayer.pdb

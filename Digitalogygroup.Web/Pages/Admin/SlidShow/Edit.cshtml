@@ -1,0 +1,95 @@
+﻿@page "{id}"
+@model Digitalogygroup.Web.Pages.Admin.SlidShow.EditModel
+@{
+}
+
+<div class="row">
+    <div class="col-lg-12">
+        <h1 class="page-header">ویرایش اسلاید  </h1>
+    </div>
+    <!-- /.col-lg-12 -->
+</div>
+
+<div class="row">
+    <form method="post" enctype="multipart/form-data">
+        <input type="hidden" asp-for="VM.Id" />
+        <input type="hidden" asp-for="VM.picName" />
+
+        <div class="col-md-8">
+            <div class="panel panel-success">
+                <div class="panel-heading">
+                    اطلاعات اسلاید
+                </div>
+                <!-- /.panel-heading -->
+                <div class="panel-body">
+
+                    <div class="form-group">
+                        <label>عنوان  </label>
+
+                        <input type="text" asp-for="VM.Title" class="form-control">
+                    </div>
+                    <span asp-validation-for="VM.Title"></span>
+
+
+
+                    <div class="form-group">
+                        <label>دسته</label>
+                        <select asp-for="VM.Parent" class="form-control"><option value="1"> اصلی</option><option value="2"> راست</option><option value="3"> چپ</option></select>
+                        @*<input type="text" asp-for="VM.Parent " class="form-control">*@
+                    </div>
+                    <span asp-validation-for="VM.Parent"></span>
+
+
+                    <div class="form-group">
+                        <label>لینک</label>
+                        <input type="text" asp-for="VM.Link" class="form-control">
+                    </div>
+                    <span asp-validation-for="VM.Link"></span>
+
+                    <input type="submit" value="ذخیره اطلاعات" class="btn btn-success" />
+                </div>
+                <!-- /.panel-body -->
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="panel panel-success">
+                <div class="panel-heading">
+                    تصویر
+                </div>
+                <!-- /.panel-heading -->
+                <div class="panel-body">
+                    <img id="imgProd" class="thumbnail" src="~/Slid/@Model.VM.picName" />
+                    <div class="form-group">
+                        <label>انتخاب تصویر</label>
+                        <input type="file" asp-for="VM.ImageUrl">
+                    </div>
+                </div>
+                <!-- /.panel-body -->
+            </div>
+
+        </div>
+
+    </form>
+</div>
+
+@section Scripts
+{
+    <script>
+        function readURL(input) {
+
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+
+                reader.onload = function (e) {
+                    $('#imgProd').attr('src', e.target.result);
+                }
+
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+
+        $("#VM_ImageUrl").change(function () {
+            readURL(this);
+        });
+    </script>
+}
